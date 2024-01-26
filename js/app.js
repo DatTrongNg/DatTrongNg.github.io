@@ -1,5 +1,5 @@
 import * as THREE from 'three';
-import { OrbitControls } from "three/addons/controls/OrbitControls.js";
+import { OrbitControls } from "node_modules/three/addons/controls/OrbitControls.js";
 import Scene from './class/scene.js';
 import * as ENABLE3D from '@enable3d/ammo-physics';
 
