@@ -4,11 +4,26 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Experience — Dat Nguyen</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
 
-<nav id="site-nav"></nav>
+<nav>
+  <div class="nav-inner">
+    <a class="nav-name" href="index.html">Dat Nguyen</a>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">About</a></li>
+      <li><a href="experience.html" class="active">Experience</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="blog.html">Blog</a></li>
+    </ul>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Menu">☰</button>
+  </div>
+</nav>
 
 <main class="page">
 
@@ -23,7 +38,7 @@
 
       <div class="tl-item">
         <div class="tl-date">Jan 2025<br>Present</div>
-        <div class="tl-dot"></div>
+        <div class="tl-line"><div class="tl-dot"></div><div class="tl-connector"></div></div>
         <div class="tl-body">
           <div class="tl-company">Carviz</div>
           <div class="tl-role">Machine Learning Engineer — Computer Vision</div>
@@ -39,7 +54,7 @@
 
       <div class="tl-item">
         <div class="tl-date">Mar 2024<br>Sep 2024</div>
-        <div class="tl-dot"></div>
+        <div class="tl-line"><div class="tl-dot"></div><div class="tl-connector"></div></div>
         <div class="tl-body">
           <div class="tl-company">ENSTA Paris — U2IS Lab</div>
           <div class="tl-role">Machine Learning Engineer Intern</div>
@@ -55,7 +70,7 @@
 
       <div class="tl-item">
         <div class="tl-date">Jul 2021<br>Jul 2022</div>
-        <div class="tl-dot"></div>
+        <div class="tl-line"><div class="tl-dot"></div><div class="tl-connector"></div></div>
         <div class="tl-body">
           <div class="tl-company">Tek Experts</div>
           <div class="tl-role">Software Engineer</div>
@@ -81,8 +96,6 @@
   </footer>
 
 </main>
-
-<script src="js/nav.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>

@@ -4,11 +4,26 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Publications — Dat Nguyen</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
 
-<nav id="site-nav"></nav>
+<nav>
+  <div class="nav-inner">
+    <a class="nav-name" href="index.html">Dat Nguyen</a>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">About</a></li>
+      <li><a href="experience.html">Experience</a></li>
+      <li><a href="publications.html" class="active">Publications</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="blog.html">Blog</a></li>
+    </ul>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Menu">☰</button>
+  </div>
+</nav>
 
 <main class="page">
 
@@ -21,23 +36,12 @@
   <section class="section">
     <div class="section-label">2025</div>
     <h2 class="section-title">Conference Papers</h2>
-
     <div class="pub">
       <div class="pub-badge">CVPR 2025</div>
-      <div class="pub-title">
-        Towards Understanding and Quantifying Uncertainty for Text-to-Image Generation
-      </div>
-      <div class="pub-authors">
-        Gianni Franchi, <strong>Dat Nguyen Trong</strong>, Nacim Belkhir, Guoxuan Xia, Andrea Pilzer
-      </div>
-      <div class="pub-meta">
-        IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2025 · arXiv:2412.03178
-      </div>
-      <div class="pub-abstract">
-        We propose a framework for understanding and quantifying uncertainty in text-to-image
-        generative models, introducing a novel metric for evaluating how well a model captures
-        the semantic concepts present in its training data.
-      </div>
+      <div class="pub-title">Towards Understanding and Quantifying Uncertainty for Text-to-Image Generation</div>
+      <div class="pub-authors">Gianni Franchi, <strong>Dat Nguyen Trong</strong>, Nacim Belkhir, Guoxuan Xia, Andrea Pilzer</div>
+      <div class="pub-meta">IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2025 · arXiv:2412.03178</div>
+      <div class="pub-abstract">We propose a framework for understanding and quantifying uncertainty in text-to-image generative models, introducing a novel metric for evaluating how well a model captures the semantic concepts present in its training data.</div>
       <div class="pub-links">
         <a class="pub-link" href="https://openaccess.thecvf.com/content/CVPR2025/papers/Franchi_Towards_Understanding_and_Quantifying_Uncertainty_for_Text-to-Image_Generation_CVPR_2025_paper.pdf" target="_blank">PDF</a>
         <a class="pub-link" href="https://arxiv.org/abs/2412.03178" target="_blank">arXiv</a>
@@ -55,8 +59,6 @@
   </footer>
 
 </main>
-
-<script src="js/nav.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>

@@ -4,11 +4,26 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Skills — Dat Nguyen</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
 
-<nav id="site-nav"></nav>
+<nav>
+  <div class="nav-inner">
+    <a class="nav-name" href="index.html">Dat Nguyen</a>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">About</a></li>
+      <li><a href="experience.html">Experience</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <li><a href="skills.html" class="active">Skills</a></li>
+      <li><a href="blog.html">Blog</a></li>
+    </ul>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Menu">☰</button>
+  </div>
+</nav>
 
 <main class="page">
 
@@ -25,35 +40,28 @@
       <div class="skill-card">
         <div class="skill-card-title">Deep Learning</div>
         <div class="tags">
-          <span class="tag">PyTorch</span>
-          <span class="tag">TensorFlow</span>
-          <span class="tag">Accelerate</span>
-          <span class="tag">PyTorch Lightning</span>
+          <span class="tag">PyTorch</span><span class="tag">TensorFlow</span>
+          <span class="tag">Accelerate</span><span class="tag">PyTorch Lightning</span>
         </div>
       </div>
       <div class="skill-card">
         <div class="skill-card-title">Computer Vision</div>
         <div class="tags">
-          <span class="tag">Ultralytics</span>
-          <span class="tag">Detection</span>
-          <span class="tag">Segmentation</span>
-          <span class="tag">MOT Tracking</span>
+          <span class="tag">Ultralytics</span><span class="tag">Detection</span>
+          <span class="tag">Segmentation</span><span class="tag">MOT Tracking</span>
         </div>
       </div>
       <div class="skill-card">
         <div class="skill-card-title">Generative Models</div>
         <div class="tags">
-          <span class="tag">Diffusion (SDXL)</span>
-          <span class="tag">Pixart-α / Σ</span>
-          <span class="tag">GAN</span>
-          <span class="tag">cGAN</span>
+          <span class="tag">Diffusion (SDXL)</span><span class="tag">Pixart-α / Σ</span>
+          <span class="tag">GAN</span><span class="tag">cGAN</span>
         </div>
       </div>
       <div class="skill-card">
         <div class="skill-card-title">Distributed Training</div>
         <div class="tags">
-          <span class="tag">DDP</span>
-          <span class="tag">Slurm</span>
+          <span class="tag">DDP</span><span class="tag">Slurm</span>
           <span class="tag">Multi-node GPU</span>
         </div>
       </div>
@@ -67,18 +75,13 @@
       <div class="skill-card">
         <div class="skill-card-title">Cloud Platforms</div>
         <div class="tags">
-          <span class="tag">GCP</span>
-          <span class="tag">AWS CLI</span>
-          <span class="tag">Replicate</span>
-          <span class="tag">Azure</span>
+          <span class="tag">GCP</span><span class="tag">AWS CLI</span>
+          <span class="tag">Replicate</span><span class="tag">Azure</span>
         </div>
       </div>
       <div class="skill-card">
         <div class="skill-card-title">DevOps</div>
-        <div class="tags">
-          <span class="tag">Docker</span>
-          <span class="tag">Git</span>
-        </div>
+        <div class="tags"><span class="tag">Docker</span><span class="tag">Git</span></div>
       </div>
     </div>
   </section>
@@ -90,18 +93,14 @@
       <div class="skill-card">
         <div class="skill-card-title">Programming</div>
         <div class="tags">
-          <span class="tag">Python</span>
-          <span class="tag">C++</span>
-          <span class="tag">X++</span>
+          <span class="tag">Python</span><span class="tag">C++</span><span class="tag">X++</span>
         </div>
       </div>
       <div class="skill-card">
         <div class="skill-card-title">Data</div>
         <div class="tags">
-          <span class="tag">NumPy</span>
-          <span class="tag">SQL</span>
-          <span class="tag">Webdataset</span>
-          <span class="tag">SSMS</span>
+          <span class="tag">NumPy</span><span class="tag">SQL</span>
+          <span class="tag">Webdataset</span><span class="tag">SSMS</span>
         </div>
       </div>
     </div>
@@ -117,8 +116,6 @@
   </footer>
 
 </main>
-
-<script src="js/nav.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>
