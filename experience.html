@@ -8,67 +8,77 @@
 </head>
 <body>
 
-<button class="hamburger" aria-label="Menu">☰</button>
-<aside class="sidebar"></aside>
+<nav id="site-nav"></nav>
 
-<main class="main">
+<main class="page">
 
   <div class="page-header">
+    <div class="section-label">Career</div>
     <h1>Experience</h1>
-    <div class="gold-rule"></div>
     <p>Production ML engineering across computer vision, generative AI, and backend systems.</p>
   </div>
 
-  <div class="section">
-    <div class="section-title">Work History</div>
+  <section class="section">
+    <div class="timeline">
 
-    <!-- Carviz -->
-    <div class="exp-card">
-      <div class="exp-header">
-        <div class="exp-company">Carviz</div>
-        <div class="exp-date">January 2025 — Present</div>
+      <div class="tl-item">
+        <div class="tl-date">Jan 2025<br>Present</div>
+        <div class="tl-dot"></div>
+        <div class="tl-body">
+          <div class="tl-company">Carviz</div>
+          <div class="tl-role">Machine Learning Engineer — Computer Vision</div>
+          <div class="tl-location">Paris, France</div>
+          <ul>
+            <li>Designed and deployed production AI pipelines for image classification, object detection and semantic segmentation in real-world automotive inspection scenarios; reduced manual review time through automated damage localisation.</li>
+            <li>Leveraged GAN and diffusion-based generative models to augment training data, improving model robustness on rare damage categories.</li>
+            <li>Architected and managed cloud + on-premise AI deployment infrastructure (GCP, AWS CLI, Replicate, Docker), ensuring high availability and reproducibility.</li>
+          </ul>
+          <div class="tl-stack"><strong>Stacks:</strong> GAN, Diffusion, GCP, AWS CLI, Replicate, Ultralytics, Multi-object Tracking, Docker</div>
+        </div>
       </div>
-      <div class="exp-role">Machine Learning Engineer — Computer Vision</div>
-      <div class="exp-location">📍 Paris, France</div>
-      <ul>
-        <li>Designed and deployed production AI pipelines for image classification, object detection and semantic segmentation in real-world automotive inspection scenarios; reduced manual review time through automated damage localisation.</li>
-        <li>Leveraged GAN and diffusion-based generative models to augment training data, improving model robustness on rare damage categories.</li>
-        <li>Architected and managed cloud + on-premise AI deployment infrastructure (GCP, AWS CLI, Replicate, Docker), ensuring high availability and reproducibility.</li>
-      </ul>
-      <div class="exp-stacks"><span>Stacks:</span> GAN, Diffusion, GCP, AWS CLI, Replicate, Ultralytics, Multi-object Tracking, Docker</div>
-    </div>
 
-    <!-- ENSTA -->
-    <div class="exp-card">
-      <div class="exp-header">
-        <div class="exp-company">ENSTA Paris — U2IS Lab</div>
-        <div class="exp-date">March 2024 — September 2024</div>
+      <div class="tl-item">
+        <div class="tl-date">Mar 2024<br>Sep 2024</div>
+        <div class="tl-dot"></div>
+        <div class="tl-body">
+          <div class="tl-company">ENSTA Paris — U2IS Lab</div>
+          <div class="tl-role">Machine Learning Engineer Intern</div>
+          <div class="tl-location">Paris, France</div>
+          <ul>
+            <li>Scraped and cleaned large-scale multimodal datasets (CC12M, LAION-400M), resolving duplicate and unstructured data issues at scale.</li>
+            <li>Trained SDXL 1.0, Pixart-α and Pixart-Σ on CC12M across 16 GPUs (4 machines) using distributed data-parallel (DDP) strategies, maximising GPU utilisation under resource constraints.</li>
+            <li>Developed a novel metric for quantifying concept uncertainty in text-to-image models, contributing directly to a CVPR 2025 publication.</li>
+          </ul>
+          <div class="tl-stack"><strong>Stacks:</strong> PyTorch, DDP, Accelerate, Uncertainty Quantification, Slurm</div>
+        </div>
       </div>
-      <div class="exp-role">Machine Learning Engineer Intern</div>
-      <div class="exp-location">📍 Paris, France</div>
-      <ul>
-        <li>Scraped and cleaned large-scale multimodal datasets (CC12M, LAION-400M), resolving duplicate and unstructured data issues at scale.</li>
-        <li>Trained SDXL 1.0, Pixart-α and Pixart-Σ on CC12M across 16 GPUs (4 machines) using distributed data-parallel (DDP) strategies, maximising GPU utilisation under resource constraints.</li>
-        <li>Developed a novel metric for quantifying concept uncertainty in text-to-image models, contributing directly to a CVPR 2025 publication.</li>
-      </ul>
-      <div class="exp-stacks"><span>Stacks:</span> PyTorch, DDP, Accelerate, Uncertainty Quantification, Slurm</div>
-    </div>
 
-    <!-- Tek Experts -->
-    <div class="exp-card">
-      <div class="exp-header">
-        <div class="exp-company">Tek Experts</div>
-        <div class="exp-date">July 2021 — July 2022</div>
+      <div class="tl-item">
+        <div class="tl-date">Jul 2021<br>Jul 2022</div>
+        <div class="tl-dot"></div>
+        <div class="tl-body">
+          <div class="tl-company">Tek Experts</div>
+          <div class="tl-role">Software Engineer</div>
+          <div class="tl-location">Hanoi, Vietnam</div>
+          <ul>
+            <li>Maintained and troubleshot performance bottlenecks in backend services (Microsoft Dynamics 365), ensuring reliable data flow across business operations.</li>
+            <li>Awarded <em>Employee of the Quarter</em> — Q2 2022.</li>
+          </ul>
+          <div class="tl-stack"><strong>Stacks:</strong> SSMS, X++, Azure</div>
+        </div>
       </div>
-      <div class="exp-role">Software Engineer</div>
-      <div class="exp-location">📍 Hanoi, Vietnam</div>
-      <ul>
-        <li>Maintained and troubleshot performance bottlenecks in backend services (Microsoft Dynamics 365), ensuring reliable data flow across business operations.</li>
-        <li>Awarded <em>Employee of the Quarter</em> — Q2 2022.</li>
-      </ul>
-      <div class="exp-stacks"><span>Stacks:</span> SSMS, X++, Azure</div>
+
     </div>
-  </div>
+  </section>
+
+  <footer>
+    <div class="footer-links">
+      <a href="mailto:dattrong121099@gmail.com">Email</a>
+      <a href="https://github.com/DatTrongNg" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/dat-nguyen-18001b213/" target="_blank">LinkedIn</a>
+    </div>
+    <div class="footer-copy">© 2025 Dat Nguyen</div>
+  </footer>
 
 </main>
 

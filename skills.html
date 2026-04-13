@@ -8,102 +8,113 @@
 </head>
 <body>
 
-<button class="hamburger" aria-label="Menu">☰</button>
-<aside class="sidebar"></aside>
+<nav id="site-nav"></nav>
 
-<main class="main">
+<main class="page">
 
   <div class="page-header">
+    <div class="section-label">Toolkit</div>
     <h1>Skills</h1>
-    <div class="gold-rule"></div>
     <p>Tools, frameworks and stacks I use in production and research.</p>
   </div>
 
-  <div class="section">
-    <div class="section-title">Machine Learning &amp; AI</div>
+  <section class="section">
+    <div class="section-label">Core</div>
+    <h2 class="section-title">Machine Learning &amp; AI</h2>
     <div class="skills-grid">
-      <div class="skill-group">
-        <div class="skill-group-title">Deep Learning</div>
-        <div class="skill-tags">
-          <span class="skill-tag">PyTorch</span>
-          <span class="skill-tag">TensorFlow</span>
-          <span class="skill-tag">Accelerate</span>
-          <span class="skill-tag">PyTorch Lightning</span>
+      <div class="skill-card">
+        <div class="skill-card-title">Deep Learning</div>
+        <div class="tags">
+          <span class="tag">PyTorch</span>
+          <span class="tag">TensorFlow</span>
+          <span class="tag">Accelerate</span>
+          <span class="tag">PyTorch Lightning</span>
         </div>
       </div>
-      <div class="skill-group">
-        <div class="skill-group-title">Computer Vision</div>
-        <div class="skill-tags">
-          <span class="skill-tag">Ultralytics</span>
-          <span class="skill-tag">Object Detection</span>
-          <span class="skill-tag">Segmentation</span>
-          <span class="skill-tag">Multi-object Tracking</span>
+      <div class="skill-card">
+        <div class="skill-card-title">Computer Vision</div>
+        <div class="tags">
+          <span class="tag">Ultralytics</span>
+          <span class="tag">Detection</span>
+          <span class="tag">Segmentation</span>
+          <span class="tag">MOT Tracking</span>
         </div>
       </div>
-      <div class="skill-group">
-        <div class="skill-group-title">Generative Models</div>
-        <div class="skill-tags">
-          <span class="skill-tag">Diffusion (SDXL)</span>
-          <span class="skill-tag">Pixart-α / Σ</span>
-          <span class="skill-tag">GAN</span>
-          <span class="skill-tag">cGAN</span>
+      <div class="skill-card">
+        <div class="skill-card-title">Generative Models</div>
+        <div class="tags">
+          <span class="tag">Diffusion (SDXL)</span>
+          <span class="tag">Pixart-α / Σ</span>
+          <span class="tag">GAN</span>
+          <span class="tag">cGAN</span>
         </div>
       </div>
-      <div class="skill-group">
-        <div class="skill-group-title">Distributed Training</div>
-        <div class="skill-tags">
-          <span class="skill-tag">DDP</span>
-          <span class="skill-tag">Slurm</span>
-          <span class="skill-tag">Multi-node GPU</span>
+      <div class="skill-card">
+        <div class="skill-card-title">Distributed Training</div>
+        <div class="tags">
+          <span class="tag">DDP</span>
+          <span class="tag">Slurm</span>
+          <span class="tag">Multi-node GPU</span>
         </div>
       </div>
     </div>
-  </div>
+  </section>
 
-  <div class="section">
-    <div class="section-title">Infrastructure &amp; Cloud</div>
+  <section class="section">
+    <div class="section-label">Infrastructure</div>
+    <h2 class="section-title">Cloud &amp; DevOps</h2>
     <div class="skills-grid">
-      <div class="skill-group">
-        <div class="skill-group-title">Cloud Platforms</div>
-        <div class="skill-tags">
-          <span class="skill-tag">GCP</span>
-          <span class="skill-tag">AWS CLI</span>
-          <span class="skill-tag">Replicate</span>
-          <span class="skill-tag">Azure</span>
+      <div class="skill-card">
+        <div class="skill-card-title">Cloud Platforms</div>
+        <div class="tags">
+          <span class="tag">GCP</span>
+          <span class="tag">AWS CLI</span>
+          <span class="tag">Replicate</span>
+          <span class="tag">Azure</span>
         </div>
       </div>
-      <div class="skill-group">
-        <div class="skill-group-title">DevOps</div>
-        <div class="skill-tags">
-          <span class="skill-tag">Docker</span>
-          <span class="skill-tag">Git</span>
+      <div class="skill-card">
+        <div class="skill-card-title">DevOps</div>
+        <div class="tags">
+          <span class="tag">Docker</span>
+          <span class="tag">Git</span>
         </div>
       </div>
     </div>
-  </div>
+  </section>
 
-  <div class="section">
-    <div class="section-title">Languages &amp; Data</div>
+  <section class="section">
+    <div class="section-label">Languages</div>
+    <h2 class="section-title">Programming &amp; Data</h2>
     <div class="skills-grid">
-      <div class="skill-group">
-        <div class="skill-group-title">Programming</div>
-        <div class="skill-tags">
-          <span class="skill-tag">Python</span>
-          <span class="skill-tag">C++</span>
-          <span class="skill-tag">X++</span>
+      <div class="skill-card">
+        <div class="skill-card-title">Programming</div>
+        <div class="tags">
+          <span class="tag">Python</span>
+          <span class="tag">C++</span>
+          <span class="tag">X++</span>
         </div>
       </div>
-      <div class="skill-group">
-        <div class="skill-group-title">Data</div>
-        <div class="skill-tags">
-          <span class="skill-tag">NumPy</span>
-          <span class="skill-tag">SQL</span>
-          <span class="skill-tag">Webdataset</span>
-          <span class="skill-tag">SSMS</span>
+      <div class="skill-card">
+        <div class="skill-card-title">Data</div>
+        <div class="tags">
+          <span class="tag">NumPy</span>
+          <span class="tag">SQL</span>
+          <span class="tag">Webdataset</span>
+          <span class="tag">SSMS</span>
         </div>
       </div>
     </div>
-  </div>
+  </section>
+
+  <footer>
+    <div class="footer-links">
+      <a href="mailto:dattrong121099@gmail.com">Email</a>
+      <a href="https://github.com/DatTrongNg" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/dat-nguyen-18001b213/" target="_blank">LinkedIn</a>
+    </div>
+    <div class="footer-copy">© 2025 Dat Nguyen</div>
+  </footer>
 
 </main>
 
