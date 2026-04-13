@@ -13,13 +13,13 @@
 
 <nav>
   <div class="nav-inner">
-    <a class="nav-name" href="index.html">Dat Nguyen</a>
+    <a class="nav-name" href="#about">Dat Nguyen</a>
     <ul class="nav-links" id="nav-links">
-      <li><a href="index.html" class="active">About</a></li>
-      <li><a href="experience.html">Experience</a></li>
-      <li><a href="publications.html">Publications</a></li>
-      <li><a href="skills.html">Skills</a></li>
-      <li><a href="blog.html">Blog</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#publications">Publications</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#blog">Blog</a></li>
     </ul>
     <button class="nav-toggle" id="nav-toggle" aria-label="Menu">☰</button>
   </div>
@@ -27,51 +27,195 @@
 
 <main class="page">
 
-  <section class="hero">
-    <div class="hero-tag">Machine Learning · Computer Vision · Paris</div>
-    <h1>Hello, I'm<br><em>Dat Nguyen.</em></h1>
-    <p>I build and deploy production AI systems for real-world computer vision problems.
-    Currently at Carviz working on automated automotive inspection.
-    CVPR 2025 co-author on uncertainty quantification for generative models.</p>
-    <div class="hero-actions">
-      <a class="btn btn-primary" href="experience.html">View Experience</a>
-      <a class="btn btn-secondary" href="publications.html">CVPR 2025 Paper</a>
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="hero">
+      <div class="hero-tag">Machine Learning · Computer Vision · Paris</div>
+      <h1>Hello, I'm<br><em>Dat Nguyen.</em></h1>
+      <p>I build and deploy production AI systems for real-world computer vision problems.
+      Currently at Carviz working on automated automotive inspection.
+      CVPR 2025 co-author on uncertainty quantification for generative models.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#experience">View Experience</a>
+        <a class="btn btn-secondary" href="#publications">CVPR 2025 Paper</a>
+      </div>
+    </div>
+
+    <div class="stats">
+      <div class="stat"><div class="stat-num">1</div><div class="stat-label">CVPR Publication</div></div>
+      <div class="stat"><div class="stat-num">3+</div><div class="stat-label">Years in ML / AI</div></div>
+      <div class="stat"><div class="stat-num">16</div><div class="stat-label">GPUs Trained Across</div></div>
+    </div>
+
+    <div class="section">
+      <div class="section-label">Background</div>
+      <h2 class="section-title">About me</h2>
+      <p style="font-size:0.92rem;color:var(--mid);line-height:1.85;margin-bottom:1rem;">I specialise in computer vision and generative AI — from training large-scale diffusion models (SDXL, Pixart-α/Σ) to deploying production-grade detection and segmentation pipelines. My work sits at the intersection of research and engineering: I care about models that <em>actually work</em> in the real world, at scale.</p>
+      <p style="font-size:0.92rem;color:var(--mid);line-height:1.85;margin-bottom:1rem;">Before moving into ML, I worked as a software engineer at Tek Experts (Hanoi), maintaining backend services for Microsoft Dynamics 365. I then came to France on an IDEX scholarship to pursue a Master's in Machine Vision and AI at Université Paris-Saclay (ENSTA Paris), where my internship research led to a CVPR 2025 paper on uncertainty in text-to-image models.</p>
+      <p style="font-size:0.92rem;color:var(--mid);line-height:1.85;">Fluent in Vietnamese, English, and French.</p>
+    </div>
+
+    <div class="section">
+      <div class="section-label">Academic</div>
+      <h2 class="section-title">Education</h2>
+      <div class="edu-item">
+        <div class="edu-header">
+          <div class="edu-school">Université Paris-Saclay — ENSTA Paris</div>
+          <div class="edu-date">2022 – 2024</div>
+        </div>
+        <div class="edu-degree">MSc — Machine Vision, Artificial Intelligence &amp; Mechatronics</div>
+        <div class="edu-notes">IDEX Scholarship · Deep Learning, Computer Vision, Uncertainty Estimation</div>
+      </div>
+      <div class="edu-item">
+        <div class="edu-header">
+          <div class="edu-school">Hanoi University of Science and Technology</div>
+          <div class="edu-date">2017 – 2021</div>
+        </div>
+        <div class="edu-degree">BEng — Mechatronics (Talent Programme)</div>
+        <div class="edu-notes">Academic Excellence Scholarship recipient</div>
+      </div>
     </div>
   </section>
 
-  <div class="stats">
-    <div class="stat"><div class="stat-num">1</div><div class="stat-label">CVPR Publication</div></div>
-    <div class="stat"><div class="stat-num">3+</div><div class="stat-label">Years in ML / AI</div></div>
-    <div class="stat"><div class="stat-num">16</div><div class="stat-label">GPUs Trained Across</div></div>
-  </div>
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section">
+    <div class="section-label">Career</div>
+    <h2 class="section-title">Experience</h2>
+    <div class="timeline">
 
-  <section class="section">
-    <div class="section-label">Background</div>
-    <h2 class="section-title">About me</h2>
-    <p style="font-size:0.92rem;color:var(--mid);line-height:1.85;margin-bottom:1rem;">I specialise in computer vision and generative AI — from training large-scale diffusion models (SDXL, Pixart-α/Σ) to deploying production-grade detection and segmentation pipelines. My work sits at the intersection of research and engineering: I care about models that <em>actually work</em> in the real world, at scale.</p>
-    <p style="font-size:0.92rem;color:var(--mid);line-height:1.85;margin-bottom:1rem;">Before moving into ML, I worked as a software engineer at Tek Experts (Hanoi), maintaining backend services for Microsoft Dynamics 365. I then came to France on an IDEX scholarship to pursue a Master's in Machine Vision and AI at Université Paris-Saclay (ENSTA Paris), where my internship research led to a CVPR 2025 paper on uncertainty in text-to-image models.</p>
-    <p style="font-size:0.92rem;color:var(--mid);line-height:1.85;">Fluent in Vietnamese, English, and French.</p>
+      <div class="tl-item">
+        <div class="tl-date">Jan 2025<br>Present</div>
+        <div class="tl-line"><div class="tl-dot"></div><div class="tl-connector"></div></div>
+        <div class="tl-body">
+          <div class="tl-company">Carviz</div>
+          <div class="tl-role">Machine Learning Engineer — Computer Vision</div>
+          <div class="tl-location">Paris, France</div>
+          <ul>
+            <li>Designed and deployed production AI pipelines for image classification, object detection and semantic segmentation in real-world automotive inspection scenarios; reduced manual review time through automated damage localisation.</li>
+            <li>Leveraged GAN and diffusion-based generative models to augment training data, improving model robustness on rare damage categories.</li>
+            <li>Architected and managed cloud + on-premise AI deployment infrastructure (GCP, AWS CLI, Replicate, Docker), ensuring high availability and reproducibility.</li>
+          </ul>
+          <div class="tl-stack"><strong>Stacks:</strong> GAN, Diffusion, GCP, AWS CLI, Replicate, Ultralytics, Multi-object Tracking, Docker</div>
+        </div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-date">Mar 2024<br>Sep 2024</div>
+        <div class="tl-line"><div class="tl-dot"></div><div class="tl-connector"></div></div>
+        <div class="tl-body">
+          <div class="tl-company">ENSTA Paris — U2IS Lab</div>
+          <div class="tl-role">Machine Learning Engineer Intern</div>
+          <div class="tl-location">Paris, France</div>
+          <ul>
+            <li>Scraped and cleaned large-scale multimodal datasets (CC12M, LAION-400M), resolving duplicate and unstructured data issues at scale.</li>
+            <li>Trained SDXL 1.0, Pixart-α and Pixart-Σ on CC12M across 16 GPUs (4 machines) using distributed data-parallel (DDP) strategies, maximising GPU utilisation under resource constraints.</li>
+            <li>Developed a novel metric for quantifying concept uncertainty in text-to-image models, contributing directly to a CVPR 2025 publication.</li>
+          </ul>
+          <div class="tl-stack"><strong>Stacks:</strong> PyTorch, DDP, Accelerate, Uncertainty Quantification, Slurm</div>
+        </div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-date">Jul 2021<br>Jul 2022</div>
+        <div class="tl-line"><div class="tl-dot"></div><div class="tl-connector"></div></div>
+        <div class="tl-body">
+          <div class="tl-company">Tek Experts</div>
+          <div class="tl-role">Software Engineer</div>
+          <div class="tl-location">Hanoi, Vietnam</div>
+          <ul>
+            <li>Maintained and troubleshot performance bottlenecks in backend services (Microsoft Dynamics 365), ensuring reliable data flow across business operations.</li>
+            <li>Awarded <em>Employee of the Quarter</em> — Q2 2022.</li>
+          </ul>
+          <div class="tl-stack"><strong>Stacks:</strong> SSMS, X++, Azure</div>
+        </div>
+      </div>
+
+    </div>
   </section>
 
-  <section class="section">
-    <div class="section-label">Academic</div>
-    <h2 class="section-title">Education</h2>
-    <div class="edu-item">
-      <div class="edu-header">
-        <div class="edu-school">Université Paris-Saclay — ENSTA Paris</div>
-        <div class="edu-date">2022 – 2024</div>
+  <!-- PUBLICATIONS -->
+  <section id="publications" class="section">
+    <div class="section-label">Research</div>
+    <h2 class="section-title">Publications</h2>
+    <div class="pub">
+      <div class="pub-badge">CVPR 2025</div>
+      <div class="pub-title">Towards Understanding and Quantifying Uncertainty for Text-to-Image Generation</div>
+      <div class="pub-authors">Gianni Franchi, <strong>Dat Nguyen Trong</strong>, Nacim Belkhir, Guoxuan Xia, Andrea Pilzer</div>
+      <div class="pub-meta">IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2025 · arXiv:2412.03178</div>
+      <div class="pub-abstract">We propose a framework for understanding and quantifying uncertainty in text-to-image generative models, introducing a novel metric for evaluating how well a model captures the semantic concepts present in its training data.</div>
+      <div class="pub-links">
+        <a class="pub-link" href="https://openaccess.thecvf.com/content/CVPR2025/papers/Franchi_Towards_Understanding_and_Quantifying_Uncertainty_for_Text-to-Image_Generation_CVPR_2025_paper.pdf" target="_blank">PDF</a>
+        <a class="pub-link" href="https://arxiv.org/abs/2412.03178" target="_blank">arXiv</a>
       </div>
-      <div class="edu-degree">MSc — Machine Vision, Artificial Intelligence &amp; Mechatronics</div>
-      <div class="edu-notes">IDEX Scholarship · Deep Learning, Computer Vision, Uncertainty Estimation</div>
     </div>
-    <div class="edu-item">
-      <div class="edu-header">
-        <div class="edu-school">Hanoi University of Science and Technology</div>
-        <div class="edu-date">2017 – 2021</div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section">
+    <div class="section-label">Toolkit</div>
+    <h2 class="section-title">Skills</h2>
+
+    <div style="margin-bottom:1.5rem;">
+      <div class="section-label" style="margin-bottom:0.6rem;">Machine Learning &amp; AI</div>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-card-title">Deep Learning</div>
+          <div class="tags"><span class="tag">PyTorch</span><span class="tag">TensorFlow</span><span class="tag">Accelerate</span><span class="tag">PyTorch Lightning</span></div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-card-title">Computer Vision</div>
+          <div class="tags"><span class="tag">Ultralytics</span><span class="tag">Detection</span><span class="tag">Segmentation</span><span class="tag">MOT Tracking</span></div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-card-title">Generative Models</div>
+          <div class="tags"><span class="tag">Diffusion (SDXL)</span><span class="tag">Pixart-α / Σ</span><span class="tag">GAN</span><span class="tag">cGAN</span></div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-card-title">Distributed Training</div>
+          <div class="tags"><span class="tag">DDP</span><span class="tag">Slurm</span><span class="tag">Multi-node GPU</span></div>
+        </div>
       </div>
-      <div class="edu-degree">BEng — Mechatronics (Talent Programme)</div>
-      <div class="edu-notes">Academic Excellence Scholarship recipient</div>
     </div>
+
+    <div style="margin-bottom:1.5rem;">
+      <div class="section-label" style="margin-bottom:0.6rem;">Cloud &amp; Infrastructure</div>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-card-title">Cloud Platforms</div>
+          <div class="tags"><span class="tag">GCP</span><span class="tag">AWS CLI</span><span class="tag">Replicate</span><span class="tag">Azure</span></div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-card-title">DevOps</div>
+          <div class="tags"><span class="tag">Docker</span><span class="tag">Git</span></div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-card-title">Programming</div>
+          <div class="tags"><span class="tag">Python</span><span class="tag">C++</span><span class="tag">X++</span></div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-card-title">Data</div>
+          <div class="tags"><span class="tag">NumPy</span><span class="tag">SQL</span><span class="tag">Webdataset</span><span class="tag">SSMS</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BLOG -->
+  <section id="blog" class="section">
+    <div class="section-label">Writing</div>
+    <h2 class="section-title">Blog</h2>
+    <div class="blog-empty">
+      Posts coming soon — I'll be writing about diffusion models, uncertainty estimation, and production CV systems.
+    </div>
+    <!--
+    <a class="blog-post" href="posts/my-post.html">
+      <div>
+        <div class="blog-post-title">Post title here</div>
+        <div class="blog-post-excerpt">Short description, two sentences max.</div>
+      </div>
+      <div class="blog-post-date">Apr 2025</div>
+    </a>
+    -->
   </section>
 
   <footer>
@@ -84,6 +228,7 @@
   </footer>
 
 </main>
+
 <script src="js/main.js"></script>
 </body>
 </html>

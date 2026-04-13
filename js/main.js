@@ -12,16 +12,37 @@ document.addEventListener('DOMContentLoaded', function () {
         links.classList.remove('open');
       }
     });
+    // Close mobile nav when a link is clicked
+    links.querySelectorAll('a').forEach(function (a) {
+      a.addEventListener('click', function () {
+        links.classList.remove('open');
+      });
+    });
   }
 
-  // Scroll reveal — tag every major block
-  var targets = document.querySelectorAll(
-    '.hero, .stats, .section, .page-header, .pub, .tl-item, .skill-card, .edu-item, .blog-post, .blog-empty, footer'
-  );
+  // Active nav link on scroll
+  var sections = document.querySelectorAll('section[id]');
+  var navAnchors = document.querySelectorAll('.nav-links a');
 
-  targets.forEach(function (el) {
-    el.classList.add('reveal');
-  });
+  function setActive () {
+    var scrollY = window.scrollY + 100;
+    var current = '';
+    sections.forEach(function (s) {
+      if (s.offsetTop <= scrollY) current = s.getAttribute('id');
+    });
+    navAnchors.forEach(function (a) {
+      a.classList.toggle('active', a.getAttribute('href') === '#' + current);
+    });
+  }
+
+  window.addEventListener('scroll', setActive, { passive: true });
+  setActive();
+
+  // Scroll reveal
+  var targets = document.querySelectorAll(
+    '.hero, .stats, .section, .pub, .tl-item, .skill-card, .edu-item, .blog-post, .blog-empty, footer'
+  );
+  targets.forEach(function (el) { el.classList.add('reveal'); });
 
   var observer = new IntersectionObserver(function (entries) {
     entries.forEach(function (entry) {
@@ -30,7 +51,7 @@ document.addEventListener('DOMContentLoaded', function () {
         observer.unobserve(entry.target);
       }
     });
-  }, { threshold: 0.08 });
+  }, { threshold: 0.07 });
 
   targets.forEach(function (el) { observer.observe(el); });
 
