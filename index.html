@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=2" />
+  <link rel="stylesheet" href="css/style.css?v=3" />
 </head>
 <body>
 
@@ -18,6 +18,7 @@
       <li><a href="#about">About</a></li>
       <li><a href="#experience">Experience</a></li>
       <li><a href="#publications">Publications</a></li>
+      <li><a href="#projects">Projects</a></li>
       <li><a href="#skills">Skills</a></li>
     </ul>
     <button class="nav-toggle" id="nav-toggle" aria-label="Menu">☰</button>
@@ -50,6 +51,7 @@
       <h2 class="section-title">About me</h2>
       <p style="font-size:0.92rem;color:var(--mid);line-height:1.85;margin-bottom:1rem;">I specialise in computer vision and generative AI — from training large-scale diffusion models (SDXL, Pixart-α/Σ) to deploying production-grade detection and segmentation pipelines. My work sits at the intersection of research and engineering: I care about models that <em>actually work</em> in the real world, at scale.</p>
       <p style="font-size:0.92rem;color:var(--mid);line-height:1.85;margin-bottom:1rem;">Before moving into ML, I worked as a software engineer at Tek Experts (Hanoi), maintaining backend services for Microsoft Dynamics 365. I then came to France on an IDEX scholarship to pursue a Master's in Machine Vision and AI at Université Paris-Saclay. During my internship at ENSTA Paris (U2IS Lab), my research on uncertainty quantification led to a CVPR 2025 publication.</p>
+      <p style="font-size:0.92rem;color:var(--mid);line-height:1.85;margin-bottom:1rem;">I currently work as a Machine Learning Engineer at Carviz (Paris), building production computer vision systems for automated automotive inspection.</p>
       <p style="font-size:0.92rem;color:var(--mid);line-height:1.85;">Fluent in Vietnamese and English.</p>
     </div>
 
@@ -149,6 +151,96 @@
     </div>
   </section>
 
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <div class="section-label">Work</div>
+    <h2 class="section-title">Projects</h2>
+
+    <div class="section-label" style="margin-bottom:0.75rem;">@ Carviz</div>
+
+    <div class="proj-grid">
+
+      <div class="proj-card">
+        <div class="proj-card-header">
+          <div class="proj-card-title">Vehicle &amp; Parts Segmentation</div>
+          <a class="proj-link" href="https://carviz.com/AI/car-segmentation" target="_blank">↗</a>
+        </div>
+        <p class="proj-desc">Pixel-precise segmentation of full vehicles and individual parts for automated inspection workflows. Includes transparent surface handling — windows and glass panels are segmented separately, which requires solving occlusion and reflection ambiguities standard models struggle with.</p>
+        <div class="proj-tags"><span class="tag">Computer Vision</span><span class="tag">Segmentation</span><span class="tag">Production</span></div>
+      </div>
+
+      <div class="proj-card">
+        <div class="proj-card-header">
+          <div class="proj-card-title">Damage Detection &amp; Assessment</div>
+          <a class="proj-link" href="https://carviz.com/AI/damage-detection" target="_blank">↗</a>
+        </div>
+        <p class="proj-desc">Detection, localisation and severity estimation of vehicle damage — dents, scratches, and structural damage — on both interior and exterior surfaces. Results feed directly into automated repair cost estimation.</p>
+        <div class="proj-tags"><span class="tag">Object Detection</span><span class="tag">Segmentation</span><span class="tag">Production</span></div>
+      </div>
+
+      <div class="proj-card">
+        <div class="proj-card-header">
+          <div class="proj-card-title">Studio-Quality Image Generation</div>
+          <a class="proj-link" href="https://carviz.com/features/remarketing" target="_blank">↗</a>
+        </div>
+        <p class="proj-desc">Generative AI pipeline that transforms raw dealer photos into professional studio-quality images for remarketing — clean backgrounds, lighting normalisation, and brand-consistent presentation at scale.</p>
+        <div class="proj-tags"><span class="tag">Generative AI</span><span class="tag">Diffusion Models</span><span class="tag">GAN</span></div>
+      </div>
+
+      <div class="proj-card">
+        <div class="proj-card-header">
+          <div class="proj-card-title">ML Infrastructure &amp; Deployment</div>
+          <a class="proj-link" href="https://carviz.com/AI" target="_blank">↗</a>
+        </div>
+        <p class="proj-desc">Design and management of end-to-end model deployment infrastructure across AWS, Replicate, and GCP — covering API endpoints, versioning, request queue management, and production quality control pipelines.</p>
+        <div class="proj-tags"><span class="tag">MLOps</span><span class="tag">AWS</span><span class="tag">GCP</span><span class="tag">Docker</span></div>
+      </div>
+
+    </div>
+
+    <div class="section-label" style="margin-bottom:0.75rem; margin-top:2rem;">Academic &amp; Personal</div>
+
+    <div class="proj-grid">
+
+      <div class="proj-card">
+        <div class="proj-card-header">
+          <div class="proj-card-title">cGAN Image Segmentation</div>
+          <a class="proj-link" href="https://github.com/DatTrongNg/cGAN_Segmentation" target="_blank">↗</a>
+        </div>
+        <p class="proj-desc">Conditional GAN model generating segmented images from Cityscapes dataset inputs. Compared against a U-Net / DDPM baseline for output fidelity.</p>
+        <div class="proj-tags"><span class="tag">PyTorch</span><span class="tag">cGAN</span><span class="tag">U-Net</span><span class="tag">Cityscapes</span></div>
+      </div>
+
+      <div class="proj-card">
+        <div class="proj-card-header">
+          <div class="proj-card-title">Drone Navigation via Depth Estimation</div>
+          <a class="proj-link" href="https://github.com/DatTrongNg/Tello_Swarm" target="_blank">↗</a>
+        </div>
+        <p class="proj-desc">Auto-encoder model estimating depth from a Tello drone's camera feed, used to drive autonomous navigation decisions in real-time via WiFi control.</p>
+        <div class="proj-tags"><span class="tag">Auto-Encoder</span><span class="tag">PyTorch</span><span class="tag">Drone</span><span class="tag">Reinforcement Learning</span></div>
+      </div>
+
+      <div class="proj-card">
+        <div class="proj-card-header">
+          <div class="proj-card-title">3D Shape Retrieval</div>
+          <a class="proj-link" href="https://github.com/DatTrongNg/3D_Shape_Retrieval_View_Based" target="_blank">↗</a>
+        </div>
+        <p class="proj-desc">View-based 3D shape retrieval using a ResNet18 backbone — K-nearest neighbour matching from the final embedding layer against a 3D model database.</p>
+        <div class="proj-tags"><span class="tag">PyTorch</span><span class="tag">ResNet18</span><span class="tag">3D Modelling</span></div>
+      </div>
+
+      <div class="proj-card">
+        <div class="proj-card-header">
+          <div class="proj-card-title">VR Tower of Hanoi</div>
+          <a class="proj-link" href="https://github.com/GRicciardi00/Tower-of-Hanoi-VR-Three.js" target="_blank">↗</a>
+        </div>
+        <p class="proj-desc">Physics-enabled VR game built with Three.js and AmmoPhysics, playable on Oculus headsets and desktop browsers.</p>
+        <div class="proj-tags"><span class="tag">Three.js</span><span class="tag">React</span><span class="tag">VR</span><span class="tag">Oculus</span></div>
+      </div>
+
+    </div>
+  </section>
+
   <!-- SKILLS -->
   <section id="skills" class="section">
     <div class="section-label">Toolkit</div>
@@ -210,6 +302,6 @@
 
 </main>
 
-<script src="js/main.js?v=2"></script>
+<script src="js/main.js?v=3"></script>
 </body>
 </html>

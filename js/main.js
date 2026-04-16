@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // Scroll reveal
   var targets = document.querySelectorAll(
-    '.hero, .stats, .section, .pub, .tl-item, .skill-card, .edu-item, .blog-post, .blog-empty, footer'
+    '.hero, .stats, .section, .pub, .tl-item, .skill-card, .proj-card, .edu-item, .blog-post, .blog-empty, footer'
   );
   targets.forEach(function (el) { el.classList.add('reveal'); });
 
