@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=3" />
+  <link rel="stylesheet" href="css/style.css?v=4" />
 </head>
 <body>
 
@@ -60,7 +60,7 @@
       <h2 class="section-title">Education</h2>
       <div class="edu-item">
         <div class="edu-header">
-          <div class="edu-school">Université Paris-Saclay — ENSTA Paris</div>
+          <div class="edu-school">Université Paris-Saclay</div>
           <div class="edu-date">2022 – 2024</div>
         </div>
         <div class="edu-degree">MSc — Machine Vision, Artificial Intelligence &amp; Mechatronics</div>
@@ -157,84 +157,115 @@
     <h2 class="section-title">Projects</h2>
 
     <div class="section-label" style="margin-bottom:0.75rem;">@ Carviz</div>
-
     <div class="proj-grid">
 
       <div class="proj-card">
-        <div class="proj-card-header">
-          <div class="proj-card-title">Vehicle &amp; Segmentation</div>
-          <a class="proj-link" href="https://carviz.com/features/remarketing" target="_blank">↗</a>
+        <div class="proj-img-icon">
+          <img src="https://carviz.com/_ipx/_/images/svg/car_segmentation.svg" alt="Segmentation">
         </div>
-        <p class="proj-desc">Pixel-precise segmentation of full vehicles and individual parts for automated inspection workflows. Includes transparent surface handling — windows and glass panels are segmented separately, which requires solving occlusion and reflection ambiguities standard models struggle with.</p>
-        <div class="proj-tags"><span class="tag">Computer Vision</span><span class="tag">Segmentation</span><span class="tag">Production</span></div>
+        <div class="proj-body">
+          <div class="proj-card-header">
+            <div class="proj-card-title">Vehicle &amp; Parts Segmentation</div>
+            <a class="proj-link" href="https://carviz.com/AI/car-segmentation" target="_blank">↗</a>
+          </div>
+          <p class="proj-desc">Pixel-precise segmentation of full vehicles and individual parts for automated inspection. Includes transparent surface handling — windows and glass panels segmented separately, solving occlusion and reflection challenges standard models struggle with.</p>
+          <div class="proj-tags"><span class="tag">Computer Vision</span><span class="tag">Segmentation</span><span class="tag">Production</span></div>
+        </div>
       </div>
 
       <div class="proj-card">
-        <div class="proj-card-header">
-          <div class="proj-card-title">Damage Detection &amp; Assessment</div>
-          <a class="proj-link" href="https://carviz.com/en/features/online" target="_blank">↗</a>
+        <div class="proj-img-icon">
+          <img src="https://carviz.com/_ipx/_/images/svg/car_damage_detection.svg" alt="Damage Detection">
         </div>
-        <p class="proj-desc">Detection, localisation and severity estimation of vehicle damage — dents, scratches, and structural damage — on both interior and exterior surfaces. Results feed directly into automated repair cost estimation.</p>
-        <div class="proj-tags"><span class="tag">Object Detection</span><span class="tag">Segmentation</span><span class="tag">Production</span></div>
+        <div class="proj-body">
+          <div class="proj-card-header">
+            <div class="proj-card-title">Damage Detection &amp; Assessment</div>
+            <a class="proj-link" href="https://carviz.com/AI/damage-detection" target="_blank">↗</a>
+          </div>
+          <p class="proj-desc">Detection, localisation and severity estimation of vehicle damage — dents, scratches, and structural damage — on interior and exterior surfaces. Results feed directly into automated repair cost estimation.</p>
+          <div class="proj-tags"><span class="tag">Object Detection</span><span class="tag">Segmentation</span><span class="tag">Production</span></div>
+        </div>
       </div>
 
       <div class="proj-card">
-        <div class="proj-card-header">
-          <div class="proj-card-title">Studio-Quality Image Generation</div>
-          <a class="proj-link" href="https://carviz.com/features/remarketing" target="_blank">↗</a>
+        <div class="proj-img-icon">
+          <img src="https://carviz.com/_ipx/_/images/svg/image_backgrounding.svg" alt="Image Generation">
         </div>
-        <p class="proj-desc">Generative AI pipeline that transforms raw dealer photos into professional studio-quality images for remarketing — clean backgrounds, lighting normalisation, and brand-consistent presentation at scale.</p>
-        <div class="proj-tags"><span class="tag">Generative AI</span><span class="tag">Diffusion Models</span><span class="tag">GAN</span></div>
+        <div class="proj-body">
+          <div class="proj-card-header">
+            <div class="proj-card-title">Studio-Quality Image Generation</div>
+            <a class="proj-link" href="https://carviz.com/features/remarketing" target="_blank">↗</a>
+          </div>
+          <p class="proj-desc">Generative AI pipeline transforming raw dealer photos into professional studio-quality images for remarketing — clean backgrounds, lighting normalisation, and brand-consistent presentation at scale.</p>
+          <div class="proj-tags"><span class="tag">Generative AI</span><span class="tag">Diffusion Models</span><span class="tag">GAN</span></div>
+        </div>
       </div>
 
       <div class="proj-card">
-        <div class="proj-card-header">
-          <div class="proj-card-title">ML Infrastructure &amp; Deployment</div>
+        <div class="proj-img-icon">
+          <img src="https://carviz.com/_ipx/_/images/svg/car_parts_decomposition.svg" alt="ML Infrastructure">
         </div>
-        <p class="proj-desc">Design and management of end-to-end model deployment infrastructure across AWS, Replicate, and GCP — covering API endpoints, versioning, request queue management, and production quality control pipelines.</p>
-        <div class="proj-tags"><span class="tag">MLOps</span><span class="tag">AWS</span><span class="tag">GCP</span><span class="tag">Docker</span></div>
+        <div class="proj-body">
+          <div class="proj-card-header">
+            <div class="proj-card-title">ML Infrastructure &amp; Deployment</div>
+            <a class="proj-link" href="https://carviz.com/AI" target="_blank">↗</a>
+          </div>
+          <p class="proj-desc">End-to-end model deployment across AWS, Replicate, and GCP — API endpoints, versioning, request queue management, and production quality control pipelines.</p>
+          <div class="proj-tags"><span class="tag">MLOps</span><span class="tag">AWS</span><span class="tag">GCP</span><span class="tag">Docker</span></div>
+        </div>
       </div>
 
     </div>
 
     <div class="section-label" style="margin-bottom:0.75rem; margin-top:2rem;">Academic &amp; Personal</div>
-
     <div class="proj-grid">
 
       <div class="proj-card">
-        <div class="proj-card-header">
-          <div class="proj-card-title">cGAN Image Segmentation</div>
-          <a class="proj-link" href="https://github.com/DatTrongNg/cGAN_Segmentation" target="_blank">↗</a>
+        <img class="proj-img" src="https://github.com/DatTrongNg/DatTrongNg/assets/87078249/d41af293-2bd7-4853-9947-0211ef48d482" alt="cGAN Segmentation" loading="lazy">
+        <div class="proj-body">
+          <div class="proj-card-header">
+            <div class="proj-card-title">cGAN Image Segmentation</div>
+            <a class="proj-link" href="https://github.com/DatTrongNg/cGAN_Segmentation" target="_blank">↗</a>
+          </div>
+          <p class="proj-desc">Conditional GAN generating segmented images from Cityscapes inputs. Compared against a U-Net / DDPM baseline for output fidelity.</p>
+          <div class="proj-tags"><span class="tag">PyTorch</span><span class="tag">cGAN</span><span class="tag">U-Net</span><span class="tag">Cityscapes</span></div>
         </div>
-        <p class="proj-desc">Conditional GAN model generating segmented images from Cityscapes dataset inputs. Compared against a U-Net / DDPM baseline for output fidelity.</p>
-        <div class="proj-tags"><span class="tag">PyTorch</span><span class="tag">cGAN</span><span class="tag">U-Net</span><span class="tag">Cityscapes</span></div>
       </div>
 
       <div class="proj-card">
-        <div class="proj-card-header">
-          <div class="proj-card-title">Drone Navigation via Depth Estimation</div>
-          <a class="proj-link" href="https://github.com/DatTrongNg/Tello_Swarm" target="_blank">↗</a>
+        <img class="proj-img" src="https://github.com/DatTrongNg/DatTrongNg/assets/87078249/01bf7a75-e746-497b-bbf1-289a12fc134a" alt="Drone Navigation" loading="lazy">
+        <div class="proj-body">
+          <div class="proj-card-header">
+            <div class="proj-card-title">Drone Navigation via Depth Estimation</div>
+            <a class="proj-link" href="https://github.com/DatTrongNg/Tello_Swarm" target="_blank">↗</a>
+          </div>
+          <p class="proj-desc">Auto-encoder estimating depth from a Tello drone's camera feed, used to drive autonomous navigation decisions in real-time via WiFi.</p>
+          <div class="proj-tags"><span class="tag">Auto-Encoder</span><span class="tag">PyTorch</span><span class="tag">Drone</span><span class="tag">RL</span></div>
         </div>
-        <p class="proj-desc">Auto-encoder model estimating depth from a Tello drone's camera feed, used to drive autonomous navigation decisions in real-time via WiFi control.</p>
-        <div class="proj-tags"><span class="tag">Auto-Encoder</span><span class="tag">PyTorch</span><span class="tag">Drone</span><span class="tag">Reinforcement Learning</span></div>
       </div>
 
       <div class="proj-card">
-        <div class="proj-card-header">
-          <div class="proj-card-title">3D Shape Retrieval</div>
-          <a class="proj-link" href="https://github.com/DatTrongNg/3D_Shape_Retrieval_View_Based" target="_blank">↗</a>
+        <img class="proj-img" src="https://github.com/DatTrongNg/DatTrongNg/assets/87078249/5f110020-aee5-4c12-b39a-d4eb17c39f0b" alt="3D Shape Retrieval" loading="lazy">
+        <div class="proj-body">
+          <div class="proj-card-header">
+            <div class="proj-card-title">3D Shape Retrieval</div>
+            <a class="proj-link" href="https://github.com/DatTrongNg/3D_Shape_Retrieval_View_Based" target="_blank">↗</a>
+          </div>
+          <p class="proj-desc">View-based 3D shape retrieval using a ResNet18 backbone — K-nearest neighbour matching from the final embedding layer against a 3D model database.</p>
+          <div class="proj-tags"><span class="tag">PyTorch</span><span class="tag">ResNet18</span><span class="tag">3D Modelling</span></div>
         </div>
-        <p class="proj-desc">View-based 3D shape retrieval using a ResNet18 backbone — K-nearest neighbour matching from the final embedding layer against a 3D model database.</p>
-        <div class="proj-tags"><span class="tag">PyTorch</span><span class="tag">ResNet18</span><span class="tag">3D Modelling</span></div>
       </div>
 
       <div class="proj-card">
-        <div class="proj-card-header">
-          <div class="proj-card-title">VR Tower of Hanoi</div>
-          <a class="proj-link" href="https://github.com/GRicciardi00/Tower-of-Hanoi-VR-Three.js" target="_blank">↗</a>
+        <img class="proj-img" src="https://github.com/DatTrongNg/DatTrongNg/assets/87078249/7c13dea9-feed-43f0-8d94-20a9b8dce225" alt="VR Tower of Hanoi" loading="lazy">
+        <div class="proj-body">
+          <div class="proj-card-header">
+            <div class="proj-card-title">VR Tower of Hanoi</div>
+            <a class="proj-link" href="https://github.com/GRicciardi00/Tower-of-Hanoi-VR-Three.js" target="_blank">↗</a>
+          </div>
+          <p class="proj-desc">Physics-enabled VR game built with Three.js and AmmoPhysics, playable on Oculus headsets and desktop browsers.</p>
+          <div class="proj-tags"><span class="tag">Three.js</span><span class="tag">React</span><span class="tag">VR</span><span class="tag">Oculus</span></div>
         </div>
-        <p class="proj-desc">Physics-enabled VR game built with Three.js and AmmoPhysics, playable on Oculus headsets and desktop browsers.</p>
-        <div class="proj-tags"><span class="tag">Three.js</span><span class="tag">React</span><span class="tag">VR</span><span class="tag">Oculus</span></div>
       </div>
 
     </div>
@@ -301,6 +332,6 @@
 
 </main>
 
-<script src="js/main.js?v=3"></script>
+<script src="js/main.js?v=4"></script>
 </body>
 </html>
