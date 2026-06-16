@@ -586,58 +586,6 @@ footer {
   background: var(--green-muted);
 }
 
-.proj-360 {
-  position: relative;
-  cursor: grab;
-  touch-action: pan-y;
-  user-select: none;
-  overflow: hidden;
-}
-.proj-360.grabbing { cursor: grabbing; }
-.proj-360 .proj-img { -webkit-user-drag: none; }
-.proj-360-badge {
-  position: absolute;
-  left: 50%;
-  bottom: 10px;
-  transform: translateX(-50%);
-  display: flex;
-  align-items: center;
-  gap: 0.3rem;
-  background: rgba(0,0,0,0.5);
-  color: #fff;
-  backdrop-filter: blur(4px);
-  padding: 0.32rem 0.7rem;
-  border-radius: 16px;
-  font-size: 0.72rem;
-  letter-spacing: 0.03em;
-  pointer-events: none;
-  transition: opacity 0.3s ease;
-}
-.proj-360.spun .proj-360-badge { opacity: 0; }
-@media (hover: none) { .proj-360-badge { opacity: 0.85; } }
-.proj-360-cursor {
-  position: absolute;
-  z-index: 6;
-  transform: translate(-50%, -50%);
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  border: 2px solid var(--green);
-  background: rgba(255,255,255,0.35);
-  backdrop-filter: blur(2px);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 0.62rem;
-  font-weight: 700;
-  color: var(--green-dark);
-  pointer-events: none;
-  opacity: 0;
-  transition: opacity 0.2s ease;
-}
-.proj-360-cursor.show { opacity: 1; }
-@media (hover: none) { .proj-360-cursor { display: none; } }
-
 .proj-img-icon {
   width: 100%;
   height: 160px;

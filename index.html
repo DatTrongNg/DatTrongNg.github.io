@@ -155,11 +155,10 @@
     <div class="proj-grid">
 
       <a class="proj-card" href="inspect360.html" style="text-decoration:none;color:inherit;">
-        <div class="proj-360" id="proj-360" data-base="assets/360/frame_" data-frames="180">
-          <img class="proj-img" id="proj-360-img" src="assets/360/frame_0000.jpg" alt="360° Vehicle Rotation" loading="lazy" draggable="false">
-          <span class="proj-360-cursor" id="proj-360-cursor">360°</span>
-          <span class="proj-360-badge">⟲ Drag to spin</span>
-        </div>
+        <video class="proj-img" autoplay loop muted playsinline poster="assets/360/frame_0000.jpg">
+          <source src="assets/360/spin.mp4" type="video/mp4">
+          <img class="proj-img" src="assets/360/frame_0000.jpg" alt="360° Vehicle Rotation">
+        </video>
         <div class="proj-body">
           <div class="proj-card-header">
             <div class="proj-card-title">360° Vehicle Rotation Viewer</div>
@@ -341,6 +340,5 @@
 </main>
 
 <script src="js/main.js?v=4"></script>
-<script src="js/preview360.js?v=2"></script>
 </body>
 </html>
