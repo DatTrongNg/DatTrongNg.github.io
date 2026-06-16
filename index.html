@@ -41,11 +41,6 @@
       </div>
     </div>
 
-    <div class="stats">
-      <div class="stat"><div class="stat-num">4+</div><div class="stat-label">Years of Experience</div></div>
-      <div class="stat"><div class="stat-num">2</div><div class="stat-label">Countries Worked In</div></div>
-    </div>
-
     <div class="section">
       <div class="section-label">Background</div>
       <h2 class="section-title">About me</h2>
@@ -160,7 +155,10 @@
     <div class="proj-grid">
 
       <a class="proj-card" href="inspect360.html" style="text-decoration:none;color:inherit;">
-        <img class="proj-img" src="assets/360/frame_0000.jpg" alt="360° Vehicle Rotation" loading="lazy">
+        <div class="proj-360" id="proj-360" data-base="assets/360/frame_" data-frames="180">
+          <img class="proj-img" id="proj-360-img" src="assets/360/frame_0000.jpg" alt="360° Vehicle Rotation" loading="lazy" draggable="false">
+          <span class="proj-360-badge">⟲ Drag to spin</span>
+        </div>
         <div class="proj-body">
           <div class="proj-card-header">
             <div class="proj-card-title">360° Vehicle Rotation Viewer</div>
@@ -342,5 +340,6 @@
 </main>
 
 <script src="js/main.js?v=4"></script>
+<script src="js/preview360.js?v=1"></script>
 </body>
 </html>
