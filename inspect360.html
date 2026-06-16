@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>360° Vehicle Rotation — Dat Nguyen</title>
+  <meta name="description" content="Interactive 360° vehicle rotation viewer — drag to spin, flick to glide. Built for automated automotive inspection at Carviz." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=4" />
+  <style>
+    /* ── 360 viewer ── */
+    .viewer360 {
+      background: #111;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 6px 28px rgba(14,110,85,0.10);
+    }
+    .v360-stage {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      background: #111 radial-gradient(ellipse at center, #1d1d1d 0%, #0d0d0d 75%);
+      overflow: hidden;
+      cursor: grab;
+      touch-action: pan-y;
+      user-select: none;
+    }
+    .v360-stage.grabbing { cursor: grabbing; }
+    .v360-img {
+      position: absolute; inset: 0;
+      width: 100%; height: 100%;
+      object-fit: contain;
+      pointer-events: none;
+      -webkit-user-drag: none;
+    }
+    .v360-loader {
+      position: absolute; inset: 0; z-index: 5;
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      gap: 0.75rem; background: rgba(0,0,0,0.55); backdrop-filter: blur(2px);
+      transition: opacity 0.4s ease;
+    }
+    .v360-loader.hidden { opacity: 0; pointer-events: none; }
+    .v360-bar { width: 180px; height: 3px; background: rgba(255,255,255,0.2); border-radius: 3px; overflow: hidden; }
+    .v360-bar-fill { height: 100%; width: 0%; background: #fff; transition: width 0.15s ease-out; }
+    .v360-count { font-size: 0.72rem; letter-spacing: 0.08em; color: rgba(255,255,255,0.75); }
+    .v360-hint {
+      position: absolute; left: 50%; bottom: 16px; transform: translateX(-50%); z-index: 6;
+      display: flex; align-items: center; gap: 0.4rem;
+      background: rgba(0,0,0,0.5); color: #fff; backdrop-filter: blur(4px);
+      padding: 0.45rem 0.9rem; border-radius: 20px; font-size: 0.8rem; letter-spacing: 0.03em;
+      transition: opacity 0.4s ease; animation: v360pulse 2s ease-in-out infinite;
+    }
+    .v360-hint.hidden { opacity: 0; pointer-events: none; }
+    @keyframes v360pulse { 0%,100% { opacity: 0.85; } 50% { opacity: 0.45; } }
+    .v360-cursor {
+      position: absolute; z-index: 6; transform: translate(-50%, -50%);
+      width: 46px; height: 46px; border-radius: 50%;
+      border: 2px solid var(--green); background: rgba(255,255,255,0.35); backdrop-filter: blur(2px);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 0.7rem; font-weight: 700; color: var(--green-dark);
+      pointer-events: none; opacity: 0; transition: opacity 0.2s ease;
+    }
+    .v360-cursor.show { opacity: 1; }
+    @media (hover: none) { .v360-cursor { display: none; } }
+    .v360-controls {
+      display: flex; align-items: center; justify-content: center; gap: 1rem;
+      padding: 0.7rem; background: #fff; border-top: 1px solid var(--border);
+    }
+    .v360-controls button {
+      width: 34px; height: 34px; border-radius: 50%;
+      border: 1px solid var(--border); background: var(--cream); color: var(--green-dark);
+      cursor: pointer; font-size: 0.8rem; line-height: 1; transition: all 0.18s;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .v360-controls button:hover { background: var(--green-muted); border-color: var(--green); color: var(--green); }
+    .v360-frame { font-size: 0.78rem; color: var(--mid); font-variant-numeric: tabular-nums; min-width: 64px; text-align: center; }
+    .caption-row {
+      display: flex; flex-wrap: wrap; gap: 0.4rem; align-items: center;
+      margin-top: 1rem; font-size: 0.78rem; color: var(--light);
+    }
+    .caption-row .tag { font-size: 0.72rem; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a class="nav-name" href="index.html">Dat Nguyen</a>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="index.html#experience">Experience</a></li>
+      <li><a href="index.html#publications">Publications</a></li>
+      <li><a href="index.html#projects">Projects</a></li>
+      <li><a href="index.html#skills">Skills</a></li>
+    </ul>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Menu">☰</button>
+  </div>
+</nav>
+
+<main class="page">
+
+  <div class="page-header">
+    <h1>360° Vehicle Rotation</h1>
+    <p>An interactive frame-based rotation viewer from my work on automated automotive inspection at Carviz. Drag to spin the vehicle; flick and release to let it glide to a stop.</p>
+  </div>
+
+  <section class="section">
+    <div class="viewer360" id="viewer360">
+      <div class="v360-stage" id="v360-stage">
+        <img class="v360-img" id="v360-img" alt="360° vehicle view" draggable="false" />
+        <div class="v360-loader" id="v360-loader">
+          <div class="v360-bar"><div class="v360-bar-fill" id="v360-bar-fill"></div></div>
+          <div class="v360-count" id="v360-count">0 / 180</div>
+        </div>
+        <div class="v360-hint" id="v360-hint">⟲&nbsp; Drag to rotate</div>
+        <div class="v360-cursor" id="v360-cursor">360°</div>
+      </div>
+      <div class="v360-controls" id="v360-controls">
+        <button id="v360-play" title="Play / pause">▶</button>
+        <span class="v360-frame" id="v360-frame">1 / 180</span>
+        <button id="v360-reset" title="Reset">⟲</button>
+      </div>
+    </div>
+
+    <div class="caption-row">
+      <span class="tag">Frame-based 360°</span>
+      <span class="tag">Inertia glide</span>
+      <span class="tag">180 frames</span>
+      <span>· Drag, or use ← / → and space.</span>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-label">How it works</div>
+    <h2 class="section-title">Behind the viewer</h2>
+    <p style="font-size:0.92rem;color:var(--mid);line-height:1.85;margin-bottom:1rem;">A vehicle is filmed on a turntable and the video is decomposed into a fixed set of evenly-spaced frames. Dragging maps horizontal cursor travel to a frame index, so the car appears to rotate in real time. A full-width drag sweeps roughly half a turn.</p>
+    <p style="font-size:0.92rem;color:var(--mid);line-height:1.85;">On release, the viewer samples the last ~120&nbsp;ms of pointer movement to estimate spin velocity, then carries it into an ease-out glide whose initial speed matches your hand — so the hand-off is seamless and the spin decelerates to a clean stop rather than halting abruptly.</p>
+  </section>
+
+  <footer>
+    <div class="footer-links">
+      <a href="index.html">← Back to portfolio</a>
+      <a href="https://github.com/DatTrongNg" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/dat-nguyen-18001b213/" target="_blank">LinkedIn</a>
+    </div>
+    <div class="footer-copy">© 2025 Dat Nguyen</div>
+  </footer>
+
+</main>
+
+<script src="js/main.js?v=4"></script>
+<script src="js/inspect360.js?v=1"></script>
+</body>
+</html>
