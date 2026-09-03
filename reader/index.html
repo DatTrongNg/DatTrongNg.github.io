@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HGTT — Reader</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reader.css" />
+</head>
+<body>
+
+  <header class="reader-header">
+    <div class="reader-header-inner">
+      <div class="reader-book-title">Hoang Giới Tu Tiên</div>
+      <button class="list-btn" id="list-btn" aria-label="Chapter list">
+        <span class="list-icon">☰</span> Danh sách chương
+      </button>
+    </div>
+  </header>
+
+  <main class="reader-main">
+    <div class="chapter-head">
+      <div class="chapter-num" id="chapter-num">Chương —</div>
+      <h1 class="chapter-title" id="chapter-title">Đang tải…</h1>
+    </div>
+    <article class="chapter-body" id="chapter-body" aria-live="polite"></article>
+  </main>
+
+  <nav class="reader-nav" aria-label="Chapter navigation">
+    <button class="nav-btn nav-prev" id="prev-btn">
+      <span class="nav-arrow">←</span><span class="nav-label">Chương trước</span>
+    </button>
+    <div class="nav-progress" id="nav-progress">— / —</div>
+    <button class="nav-btn nav-next" id="next-btn">
+      <span class="nav-label">Chương sau</span><span class="nav-arrow">→</span>
+    </button>
+  </nav>
+
+  <div class="list-overlay" id="list-overlay">
+    <div class="list-panel">
+      <div class="list-panel-head">
+        <h2>Danh sách chương</h2>
+        <button class="list-close" id="list-close" aria-label="Close">✕</button>
+      </div>
+      <input class="list-search" id="list-search" type="text" placeholder="Tìm chương…" />
+      <ul class="chapter-list" id="chapter-list"></ul>
+    </div>
+  </div>
+
+  <script src="js/reader.js"></script>
+</body>
+</html>
