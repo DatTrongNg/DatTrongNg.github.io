@@ -241,6 +241,17 @@ body {
   padding: 0.25rem 0.6rem 1.5rem;
 }
 
+.chapter-list-book {
+  padding: 0.9rem 0.75rem 0.35rem;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--green);
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 0.25rem;
+}
+.chapter-list-book:first-child { padding-top: 0.25rem; }
+
 .chapter-list li a {
   display: block;
   padding: 0.65rem 0.75rem;

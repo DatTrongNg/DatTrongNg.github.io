@@ -36,8 +36,16 @@
   function renderList(filter) {
     const q = (filter || '').trim().toLowerCase();
     chapterListEl.innerHTML = '';
+    let lastBook = null;
     manifest.forEach((m) => {
       if (q && !(`${m.num} ${m.title}`.toLowerCase().includes(q))) return;
+      if (m.book !== lastBook) {
+        const header = document.createElement('li');
+        header.className = 'chapter-list-book';
+        header.textContent = `Quyển ${m.book}`;
+        chapterListEl.appendChild(header);
+        lastBook = m.book;
+      }
       const li = document.createElement('li');
       const a = document.createElement('a');
       a.href = `#${m.id}`;
@@ -85,7 +93,7 @@
   async function render(id) {
     currentIndex = manifest.findIndex((m) => m.id === id);
     if (currentIndex === -1) {
-      chapterBodyEl.className = 'error';
+      chapterBodyEl.classList.add('error');
       chapterBodyEl.textContent = 'Không tìm thấy chương.';
       chapterTitleEl.textContent = 'Lỗi';
       chapterNumEl.textContent = '';
@@ -95,17 +103,19 @@
     const meta = manifest[currentIndex];
     chapterNumEl.textContent = `Chương ${meta.num}`;
     chapterTitleEl.textContent = meta.title;
-    chapterBodyEl.className = 'loading';
+    chapterBodyEl.classList.remove('error');
+    chapterBodyEl.classList.add('loading');
     chapterBodyEl.textContent = 'Đang tải…';
     updateNav();
     renderList(listSearch.value);
 
     try {
       const data = await fetchChapter(id);
-      chapterBodyEl.className = '';
+      chapterBodyEl.classList.remove('loading');
       renderParagraphs(data.paragraphs);
     } catch (err) {
-      chapterBodyEl.className = 'error';
+      chapterBodyEl.classList.remove('loading');
+      chapterBodyEl.classList.add('error');
       chapterBodyEl.textContent = 'Không thể tải nội dung chương này.';
     }
 

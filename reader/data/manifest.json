@@ -43,8 +43,8 @@
   },
   {
     "id": "c0008",
-    "num": "1302-1303-ai",
-    "title": "Loạn Chiến Khởi (AI Biên Tập)",
+    "num": "1302-1303 (AI Biên Tập)",
+    "title": "Loạn Chiến Khởi",
     "book": 1
   },
   {
@@ -68,7 +68,7 @@
   {
     "id": "c0012",
     "num": "1307",
-    "title": "Ta Nhìn, Ta Tính",
+    "title": "Ta Nhìn , Ta Tính",
     "book": 1
   },
   {
@@ -80,7 +80,7 @@
   {
     "id": "c0014",
     "num": "1309",
-    "title": "Ta Nhìn, Ta Tính (Hạ)",
+    "title": "Ta nhìn, Ta Tính (hạ)",
     "book": 1
   },
   {
@@ -94,5 +94,1661 @@
     "num": "1311",
     "title": "Cơ Hội Dụng Binh",
     "book": 1
+  },
+  {
+    "id": "c0017",
+    "num": "1312",
+    "title": "Suy nghĩ",
+    "book": 1
+  },
+  {
+    "id": "c0018",
+    "num": "1313",
+    "title": "Sắp Lên Đường",
+    "book": 1
+  },
+  {
+    "id": "c0019",
+    "num": "1314",
+    "title": "Đãng Âm",
+    "book": 1
+  },
+  {
+    "id": "c0020",
+    "num": "1315",
+    "title": "Tam nghi",
+    "book": 1
+  },
+  {
+    "id": "c0021",
+    "num": "1316",
+    "title": "Thái Xung Quan",
+    "book": 1
+  },
+  {
+    "id": "c0022",
+    "num": "1317",
+    "title": "Thiên Tượng",
+    "book": 1
+  },
+  {
+    "id": "c0023",
+    "num": "1318",
+    "title": "Viễn Sơn",
+    "book": 1
+  },
+  {
+    "id": "c0024",
+    "num": "1319",
+    "title": "Tạo Âm",
+    "book": 1
+  },
+  {
+    "id": "c0025",
+    "num": "1320",
+    "title": "Tứ Cừ",
+    "book": 1
+  },
+  {
+    "id": "c0026",
+    "num": "1321",
+    "title": "Nhị Phụ",
+    "book": 1
+  },
+  {
+    "id": "c0027",
+    "num": "1322",
+    "title": "Sáu ngày đàm luận",
+    "book": 1
+  },
+  {
+    "id": "c0028",
+    "num": "1323",
+    "title": "Huyền Khố",
+    "book": 1
+  },
+  {
+    "id": "c0029",
+    "num": "1324",
+    "title": "Bằng Hàm",
+    "book": 1
+  },
+  {
+    "id": "c0030",
+    "num": "1325",
+    "title": "Chuyển hướng",
+    "book": 1
+  },
+  {
+    "id": "c0031",
+    "num": "1326",
+    "title": "Nam biến",
+    "book": 1
+  },
+  {
+    "id": "c0032",
+    "num": "1327",
+    "title": "Tề Khố Mưu Họa",
+    "book": 1
+  },
+  {
+    "id": "c0033",
+    "num": "1328",
+    "title": "Đến gần sào huyệt",
+    "book": 1
+  },
+  {
+    "id": "c0034",
+    "num": "1329",
+    "title": "Ứng Biến",
+    "book": 1
+  },
+  {
+    "id": "c0035",
+    "num": "1330",
+    "title": "Lôi Thủ",
+    "book": 1
+  },
+  {
+    "id": "c0036",
+    "num": "1331",
+    "title": "Đăng Biến",
+    "book": 1
+  },
+  {
+    "id": "c0037",
+    "num": "1332",
+    "title": "Đăng Thân",
+    "book": 1
+  },
+  {
+    "id": "c0038",
+    "num": "1333",
+    "title": "Thiên Diễn",
+    "book": 1
+  },
+  {
+    "id": "c0039",
+    "num": "1334",
+    "title": "Cổ Thích",
+    "book": 1
+  },
+  {
+    "id": "c0040",
+    "num": "1335",
+    "title": "Đồ Tử",
+    "book": 1
+  },
+  {
+    "id": "c0041",
+    "num": "1336",
+    "title": "Đạo Triệu",
+    "book": 1
+  },
+  {
+    "id": "c0042",
+    "num": "1337",
+    "title": "Dần Biến",
+    "book": 1
+  },
+  {
+    "id": "c0043",
+    "num": "1338",
+    "title": "Hạ Thủy (xuống nước)",
+    "book": 1
+  },
+  {
+    "id": "c0044",
+    "num": "1339",
+    "title": "Tranh Quảng",
+    "book": 1
+  },
+  {
+    "id": "c0045",
+    "num": "1340",
+    "title": "Tin dữ",
+    "book": 1
+  },
+  {
+    "id": "c0046",
+    "num": "1341",
+    "title": "Tọa Hoàng Đài (2)",
+    "book": 1
+  },
+  {
+    "id": "c0047",
+    "num": "1342",
+    "title": "Lại Mưu Tính",
+    "book": 1
+  },
+  {
+    "id": "c0048",
+    "num": "1343",
+    "title": "Thỉnh Tạ",
+    "book": 1
+  },
+  {
+    "id": "c0049",
+    "num": "1344",
+    "title": "Lục Ký",
+    "book": 1
+  },
+  {
+    "id": "c0050",
+    "num": "1345",
+    "title": "Tư động",
+    "book": 1
+  },
+  {
+    "id": "c0051",
+    "num": "1346",
+    "title": "Hành khuyến",
+    "book": 1
+  },
+  {
+    "id": "c0052",
+    "num": "Phiên ngoại",
+    "title": "Đoàn Huyền",
+    "book": 1
+  },
+  {
+    "id": "c0053",
+    "num": "1347",
+    "title": "Đồng Mưu",
+    "book": 1
+  },
+  {
+    "id": "c0054",
+    "num": "1348",
+    "title": "Hành Kế",
+    "book": 1
+  },
+  {
+    "id": "c0055",
+    "num": "1349",
+    "title": "Ác Trá",
+    "book": 1
+  },
+  {
+    "id": "c0056",
+    "num": "1350",
+    "title": "Gia Hại",
+    "book": 1
+  },
+  {
+    "id": "c0057",
+    "num": "1351",
+    "title": "Nội Ngoại Câu Phần",
+    "book": 1
+  },
+  {
+    "id": "c0058",
+    "num": "1352",
+    "title": "Chiết Nhục",
+    "book": 1
+  },
+  {
+    "id": "c0059",
+    "num": "1353",
+    "title": "Tam Vấn",
+    "book": 1
+  },
+  {
+    "id": "c0060",
+    "num": "1354",
+    "title": "Quảng Nguyên",
+    "book": 1
+  },
+  {
+    "id": "c0061",
+    "num": "1355",
+    "title": "Phổ Thư",
+    "book": 1
+  },
+  {
+    "id": "c0062",
+    "num": "Phiên ngoại",
+    "title": "Tại Thất",
+    "book": 1
+  },
+  {
+    "id": "c0063",
+    "num": "1356",
+    "title": "Đoàn Kỳ",
+    "book": 1
+  },
+  {
+    "id": "c0064",
+    "num": "1357",
+    "title": "Đạo Thừa",
+    "book": 1
+  },
+  {
+    "id": "c0065",
+    "num": "1358",
+    "title": "Thần Quyển",
+    "book": 1
+  },
+  {
+    "id": "c0066",
+    "num": "1359",
+    "title": "Danh Và Thực",
+    "book": 1
+  },
+  {
+    "id": "c0067",
+    "num": "1360",
+    "title": "Diễn Hoa Đạo",
+    "book": 1
+  },
+  {
+    "id": "c0068",
+    "num": "1361",
+    "title": "Ý Khí",
+    "book": 1
+  },
+  {
+    "id": "c0069",
+    "num": "1362",
+    "title": "Cố Thần",
+    "book": 1
+  },
+  {
+    "id": "c0070",
+    "num": "1363",
+    "title": "Chỉ Ý",
+    "book": 1
+  },
+  {
+    "id": "c0071",
+    "num": "1364",
+    "title": "Thiết Kế",
+    "book": 1
+  },
+  {
+    "id": "c0072",
+    "num": "1365",
+    "title": "Huyền Thần",
+    "book": 1
+  },
+  {
+    "id": "c0073",
+    "num": "1366",
+    "title": "Sư Đồ",
+    "book": 1
+  },
+  {
+    "id": "c0074",
+    "num": "1367",
+    "title": "Tai Thương",
+    "book": 1
+  },
+  {
+    "id": "c0075",
+    "num": "1368",
+    "title": "Quy Hương",
+    "book": 1
+  },
+  {
+    "id": "c0076",
+    "num": "1369",
+    "title": "Viên Mãn",
+    "book": 1
+  },
+  {
+    "id": "c0077",
+    "num": "1370",
+    "title": "Ô Huyền",
+    "book": 1
+  },
+  {
+    "id": "c0078",
+    "num": "1371",
+    "title": "Trông coi",
+    "book": 1
+  },
+  {
+    "id": "c0079",
+    "num": "1372",
+    "title": "Lá Bài Tẩy",
+    "book": 1
+  },
+  {
+    "id": "c0080",
+    "num": "1373",
+    "title": "Sắc Thủ",
+    "book": 1
+  },
+  {
+    "id": "c0081",
+    "num": "1374",
+    "title": "An Bài",
+    "book": 1
+  },
+  {
+    "id": "c0082",
+    "num": "1375",
+    "title": "Lạc Cữu",
+    "book": 1
+  },
+  {
+    "id": "c0083",
+    "num": "1376",
+    "title": "Thụ Nghiệp",
+    "book": 1
+  },
+  {
+    "id": "c0084",
+    "num": "1377",
+    "title": "Trường A",
+    "book": 1
+  },
+  {
+    "id": "c0085",
+    "num": "1378",
+    "title": "Huyền Kỵ",
+    "book": 1
+  },
+  {
+    "id": "c0086",
+    "num": "1379",
+    "title": "Độ Điệp",
+    "book": 1
+  },
+  {
+    "id": "c0087",
+    "num": "1380",
+    "title": "Thần Tự",
+    "book": 1
+  },
+  {
+    "id": "c0088",
+    "num": "1381",
+    "title": "Quỷ Thần Sự",
+    "book": 2
+  },
+  {
+    "id": "c0089",
+    "num": "1382",
+    "title": "Con Cờ Bỏ",
+    "book": 2
+  },
+  {
+    "id": "c0090",
+    "num": "1383",
+    "title": "Tỉnh",
+    "book": 2
+  },
+  {
+    "id": "c0091",
+    "num": "1384",
+    "title": "Chiết Hủy",
+    "book": 2
+  },
+  {
+    "id": "c0092",
+    "num": "1385",
+    "title": "Giả Thủ",
+    "book": 2
+  },
+  {
+    "id": "c0093",
+    "num": "1386",
+    "title": "Tổ Tông",
+    "book": 2
+  },
+  {
+    "id": "c0094",
+    "num": "1387",
+    "title": "Bất Tận",
+    "book": 2
+  },
+  {
+    "id": "c0095",
+    "num": "1388",
+    "title": "Phỏng đoán",
+    "book": 2
+  },
+  {
+    "id": "c0096",
+    "num": "1389",
+    "title": "Thành Toàn",
+    "book": 2
+  },
+  {
+    "id": "c0097",
+    "num": "1390",
+    "title": "Nhiên Ô",
+    "book": 2
+  },
+  {
+    "id": "c0098",
+    "num": "1391",
+    "title": "Thú",
+    "book": 2
+  },
+  {
+    "id": "c0099",
+    "num": "1392",
+    "title": "Đế tâm",
+    "book": 2
+  },
+  {
+    "id": "c0100",
+    "num": "1393",
+    "title": "Tu Giả",
+    "book": 2
+  },
+  {
+    "id": "c0101",
+    "num": "1394",
+    "title": "Tinh Chiếu",
+    "book": 2
+  },
+  {
+    "id": "c0102",
+    "num": "1395",
+    "title": "Hữu cách",
+    "book": 2
+  },
+  {
+    "id": "c0103",
+    "num": "1396",
+    "title": "Phủ Ngưỡng",
+    "book": 2
+  },
+  {
+    "id": "c0104",
+    "num": "1397",
+    "title": "Ma La",
+    "book": 2
+  },
+  {
+    "id": "c0105",
+    "num": "1398",
+    "title": "Khổ Quả",
+    "book": 2
+  },
+  {
+    "id": "c0106",
+    "num": "1399",
+    "title": "Sợ Hãi",
+    "book": 2
+  },
+  {
+    "id": "c0107",
+    "num": "1400",
+    "title": "Thế Thành",
+    "book": 2
+  },
+  {
+    "id": "c0108",
+    "num": "1401",
+    "title": "Thu Chỉnh",
+    "book": 2
+  },
+  {
+    "id": "c0109",
+    "num": "1402",
+    "title": "Chân Tướng (Thượng)",
+    "book": 2
+  },
+  {
+    "id": "c0110",
+    "num": "1403",
+    "title": "Chân Tướng (Hạ)",
+    "book": 2
+  },
+  {
+    "id": "c0111",
+    "num": "1404",
+    "title": "Phong Định",
+    "book": 2
+  },
+  {
+    "id": "c0112",
+    "num": "1405",
+    "title": "Phi Kim",
+    "book": 2
+  },
+  {
+    "id": "c0113",
+    "num": "1406",
+    "title": "Tiểu Thành",
+    "book": 2
+  },
+  {
+    "id": "c0114",
+    "num": "1407",
+    "title": "Như Cố",
+    "book": 2
+  },
+  {
+    "id": "c0115",
+    "num": "1408",
+    "title": "Kiếm",
+    "book": 2
+  },
+  {
+    "id": "c0116",
+    "num": "1409",
+    "title": "Trường Canh",
+    "book": 2
+  },
+  {
+    "id": "c0117",
+    "num": "1410",
+    "title": "Ngọc Thân",
+    "book": 2
+  },
+  {
+    "id": "c0118",
+    "num": "1411",
+    "title": "Hư quyền",
+    "book": 2
+  },
+  {
+    "id": "c0119",
+    "num": "1412",
+    "title": "Pháp bảo",
+    "book": 2
+  },
+  {
+    "id": "c0120",
+    "num": "1413",
+    "title": "Tỉnh trung",
+    "book": 2
+  },
+  {
+    "id": "c0121",
+    "num": "1414",
+    "title": "Ma Tướng (1+1/2)",
+    "book": 2
+  },
+  {
+    "id": "c0122",
+    "num": "1415",
+    "title": "Tham Tướng",
+    "book": 2
+  },
+  {
+    "id": "c0123",
+    "num": "1416",
+    "title": "Lượng Ngục",
+    "book": 2
+  },
+  {
+    "id": "c0124",
+    "num": "1417",
+    "title": "Trong Duyên",
+    "book": 2
+  },
+  {
+    "id": "c0125",
+    "num": "1418",
+    "title": "Thân lâm",
+    "book": 2
+  },
+  {
+    "id": "c0126",
+    "num": "1419",
+    "title": "Đối thoại",
+    "book": 2
+  },
+  {
+    "id": "c0127",
+    "num": "1420",
+    "title": "Nam Tôn",
+    "book": 2
+  },
+  {
+    "id": "c0128",
+    "num": "1421",
+    "title": "Tước Thế",
+    "book": 2
+  },
+  {
+    "id": "c0129",
+    "num": "1422",
+    "title": "Thuật toán",
+    "book": 2
+  },
+  {
+    "id": "c0130",
+    "num": "1423",
+    "title": "Hai người",
+    "book": 2
+  },
+  {
+    "id": "c0131",
+    "num": "1424",
+    "title": "Ở bên ngoài",
+    "book": 2
+  },
+  {
+    "id": "c0132",
+    "num": "1425",
+    "title": "Tính kế",
+    "book": 2
+  },
+  {
+    "id": "c0133",
+    "num": "1426",
+    "title": "Ứng thân",
+    "book": 2
+  },
+  {
+    "id": "c0134",
+    "num": "1427",
+    "title": "Hắc tất",
+    "book": 2
+  },
+  {
+    "id": "c0135",
+    "num": "1428",
+    "title": "Báo thù",
+    "book": 2
+  },
+  {
+    "id": "c0136",
+    "num": "1429",
+    "title": "Tàng Huyền",
+    "book": 2
+  },
+  {
+    "id": "c0137",
+    "num": "1430",
+    "title": "Chống đỡ",
+    "book": 2
+  },
+  {
+    "id": "c0138",
+    "num": "1431",
+    "title": "Tam Dương",
+    "book": 2
+  },
+  {
+    "id": "c0139",
+    "num": "1432",
+    "title": "Kiến lô",
+    "book": 2
+  },
+  {
+    "id": "c0140",
+    "num": "1433",
+    "title": "Thanh Đường",
+    "book": 2
+  },
+  {
+    "id": "c0141",
+    "num": "1434",
+    "title": "Nê hải",
+    "book": 2
+  },
+  {
+    "id": "c0142",
+    "num": "1435",
+    "title": "Tướng Tà",
+    "book": 2
+  },
+  {
+    "id": "c0143",
+    "num": "1436",
+    "title": "Truyền thừa",
+    "book": 2
+  },
+  {
+    "id": "c0144",
+    "num": "1437",
+    "title": "Đắc tướng",
+    "book": 2
+  },
+  {
+    "id": "c0145",
+    "num": "1438",
+    "title": "Công các",
+    "book": 2
+  },
+  {
+    "id": "c0146",
+    "num": "1439",
+    "title": "Thụ thu",
+    "book": 2
+  },
+  {
+    "id": "c0147",
+    "num": "1440",
+    "title": "Tạo cảnh",
+    "book": 2
+  },
+  {
+    "id": "c0148",
+    "num": "1441",
+    "title": "Hoài cựu",
+    "book": 2
+  },
+  {
+    "id": "c0149",
+    "num": "1442",
+    "title": "Vị Am",
+    "book": 2
+  },
+  {
+    "id": "c0150",
+    "num": "1443",
+    "title": "Tam đức thủy chung",
+    "book": 2
+  },
+  {
+    "id": "c0151",
+    "num": "1444",
+    "title": "Cựu nghi",
+    "book": 2
+  },
+  {
+    "id": "c0152",
+    "num": "1445",
+    "title": "Đạo ngọc",
+    "book": 2
+  },
+  {
+    "id": "c0153",
+    "num": "1446",
+    "title": "Một tia Chân",
+    "book": 2
+  },
+  {
+    "id": "c0154",
+    "num": "1447",
+    "title": "Một điểm Tiên",
+    "book": 2
+  },
+  {
+    "id": "c0155",
+    "num": "1448",
+    "title": "Nguyệt nghi",
+    "book": 2
+  },
+  {
+    "id": "c0156",
+    "num": "1449",
+    "title": "Trừ lôi",
+    "book": 2
+  },
+  {
+    "id": "c0157",
+    "num": "1450",
+    "title": "Hận Thử Cung",
+    "book": 2
+  },
+  {
+    "id": "c0158",
+    "num": "1451",
+    "title": "Tam huyền nhất diêm",
+    "book": 2
+  },
+  {
+    "id": "c0159",
+    "num": "1452",
+    "title": "Bĩ Thái",
+    "book": 2
+  },
+  {
+    "id": "c0160",
+    "num": "1453",
+    "title": "Trong gió",
+    "book": 2
+  },
+  {
+    "id": "c0161",
+    "num": "1454",
+    "title": "Âm phù",
+    "book": 2
+  },
+  {
+    "id": "c0162",
+    "num": "1455",
+    "title": "Chân huyền",
+    "book": 2
+  },
+  {
+    "id": "c0163",
+    "num": "1456",
+    "title": "Luân chuyển",
+    "book": 2
+  },
+  {
+    "id": "c0164",
+    "num": "1457",
+    "title": "Huyền kế",
+    "book": 2
+  },
+  {
+    "id": "c0165",
+    "num": "1458",
+    "title": "Thiền Tước",
+    "book": 2
+  },
+  {
+    "id": "c0166",
+    "num": "1459",
+    "title": "Thai Huyền",
+    "book": 2
+  },
+  {
+    "id": "c0167",
+    "num": "1460",
+    "title": "Nhạn tới",
+    "book": 2
+  },
+  {
+    "id": "c0168",
+    "num": "1461",
+    "title": "Dung Khâm",
+    "book": 2
+  },
+  {
+    "id": "c0169",
+    "num": "1462",
+    "title": "Cố Ngụy",
+    "book": 2
+  },
+  {
+    "id": "c0170",
+    "num": "1463",
+    "title": "Bình minh",
+    "book": 2
+  },
+  {
+    "id": "c0171",
+    "num": "1464",
+    "title": "Cung trung ngọc",
+    "book": 2
+  },
+  {
+    "id": "c0172",
+    "num": "1465",
+    "title": "Cựu chủ",
+    "book": 2
+  },
+  {
+    "id": "c0173",
+    "num": "1466",
+    "title": "Đục thuyền",
+    "book": 2
+  },
+  {
+    "id": "c0174",
+    "num": "1467",
+    "title": "Thoát tác di sinh",
+    "book": 2
+  },
+  {
+    "id": "c0175",
+    "num": "1468",
+    "title": "Giới trung",
+    "book": 2
+  },
+  {
+    "id": "c0176",
+    "num": "1469",
+    "title": "Lâu Đài",
+    "book": 2
+  },
+  {
+    "id": "c0177",
+    "num": "1470",
+    "title": "Thiên sách",
+    "book": 2
+  },
+  {
+    "id": "c0178",
+    "num": "1471",
+    "title": "Gian mưu",
+    "book": 3
+  },
+  {
+    "id": "c0179",
+    "num": "1472",
+    "title": "Trung hầu",
+    "book": 3
+  },
+  {
+    "id": "c0180",
+    "num": "1473",
+    "title": "Chỉ điểm",
+    "book": 3
+  },
+  {
+    "id": "c0181",
+    "num": "1474",
+    "title": "Không vị",
+    "book": 3
+  },
+  {
+    "id": "c0182",
+    "num": "1475",
+    "title": "Hội liệp",
+    "book": 3
+  },
+  {
+    "id": "c0183",
+    "num": "1476",
+    "title": "Xuyên hồi",
+    "book": 3
+  },
+  {
+    "id": "c0184",
+    "num": "1477",
+    "title": "Ác chiến",
+    "book": 3
+  },
+  {
+    "id": "c0185",
+    "num": "1478",
+    "title": "Kim Tác",
+    "book": 3
+  },
+  {
+    "id": "c0186",
+    "num": "1479",
+    "title": "Đan Thi",
+    "book": 3
+  },
+  {
+    "id": "c0187",
+    "num": "1480",
+    "title": "Lô",
+    "book": 3
+  },
+  {
+    "id": "c0188",
+    "num": "1481",
+    "title": "Truyền kinh",
+    "book": 3
+  },
+  {
+    "id": "c0189",
+    "num": "1482",
+    "title": "Học tướng",
+    "book": 3
+  },
+  {
+    "id": "c0190",
+    "num": "1483",
+    "title": "Tam ngôn",
+    "book": 3
+  },
+  {
+    "id": "c0191",
+    "num": "1484",
+    "title": "Huyền thể",
+    "book": 3
+  },
+  {
+    "id": "c0192",
+    "num": "1485",
+    "title": "Vô ương",
+    "book": 3
+  },
+  {
+    "id": "c0193",
+    "num": "1486",
+    "title": "Miếu ngữ",
+    "book": 3
+  },
+  {
+    "id": "c0194",
+    "num": "1487",
+    "title": "Miếu tiền",
+    "book": 3
+  },
+  {
+    "id": "c0195",
+    "num": "1488",
+    "title": "Tam đạo",
+    "book": 3
+  },
+  {
+    "id": "c0196",
+    "num": "1489",
+    "title": "Cựu duyên",
+    "book": 3
+  },
+  {
+    "id": "c0197",
+    "num": "1490",
+    "title": "Cấu kết",
+    "book": 3
+  },
+  {
+    "id": "c0198",
+    "num": "1491",
+    "title": "Hữu Sơn",
+    "book": 3
+  },
+  {
+    "id": "c0199",
+    "num": "1492",
+    "title": "Nộ hoả",
+    "book": 3
+  },
+  {
+    "id": "c0200",
+    "num": "1493",
+    "title": "Nhất chỉ",
+    "book": 3
+  },
+  {
+    "id": "c0201",
+    "num": "1494",
+    "title": "Bay vào",
+    "book": 3
+  },
+  {
+    "id": "c0202",
+    "num": "1495",
+    "title": "Nê thủy",
+    "book": 3
+  },
+  {
+    "id": "c0203",
+    "num": "1496",
+    "title": "Thân cứu",
+    "book": 3
+  },
+  {
+    "id": "c0204",
+    "num": "1497",
+    "title": "Liên toái",
+    "book": 3
+  },
+  {
+    "id": "c0205",
+    "num": "Phiên ngoại",
+    "title": "Lương Tướng",
+    "book": 3
+  },
+  {
+    "id": "c0206",
+    "num": "1498",
+    "title": "Minh Phương",
+    "book": 3
+  },
+  {
+    "id": "c0207",
+    "num": "1499",
+    "title": "Hiến biểu",
+    "book": 3
+  },
+  {
+    "id": "c0208",
+    "num": "1500",
+    "title": "Lân y",
+    "book": 3
+  },
+  {
+    "id": "c0209",
+    "num": "1501",
+    "title": "Phòng Thành",
+    "book": 3
+  },
+  {
+    "id": "c0210",
+    "num": "1502",
+    "title": "Tranh luận",
+    "book": 3
+  },
+  {
+    "id": "c0211",
+    "num": "1503",
+    "title": "Không Minh",
+    "book": 3
+  },
+  {
+    "id": "c0212",
+    "num": "1504",
+    "title": "Cựu Lăng",
+    "book": 3
+  },
+  {
+    "id": "c0213",
+    "num": "1505",
+    "title": "Thạch Thường",
+    "book": 3
+  },
+  {
+    "id": "c0214",
+    "num": "1506",
+    "title": "Đạn toán",
+    "book": 3
+  },
+  {
+    "id": "c0215",
+    "num": "1507",
+    "title": "Phá thế",
+    "book": 3
+  },
+  {
+    "id": "c0216",
+    "num": "1508",
+    "title": "Thúy vân",
+    "book": 3
+  },
+  {
+    "id": "c0217",
+    "num": "1509",
+    "title": "Dư tiền",
+    "book": 3
+  },
+  {
+    "id": "c0218",
+    "num": "1510",
+    "title": "Hợp vây",
+    "book": 3
+  },
+  {
+    "id": "c0219",
+    "num": "1511",
+    "title": "Rút đi",
+    "book": 3
+  },
+  {
+    "id": "c0220",
+    "num": "1512",
+    "title": "Hiểm Đoạt",
+    "book": 3
+  },
+  {
+    "id": "c0221",
+    "num": "1513",
+    "title": "Tả hữu",
+    "book": 3
+  },
+  {
+    "id": "c0222",
+    "num": "1514",
+    "title": "Thần Khố",
+    "book": 3
+  },
+  {
+    "id": "c0223",
+    "num": "1515",
+    "title": "Thánh mệnh",
+    "book": 3
+  },
+  {
+    "id": "c0224",
+    "num": "1516",
+    "title": "Mệnh Trừ",
+    "book": 3
+  },
+  {
+    "id": "c0225",
+    "num": "1517",
+    "title": "Thành biến",
+    "book": 3
+  },
+  {
+    "id": "c0226",
+    "num": "1518",
+    "title": "Thiêu Sát",
+    "book": 3
+  },
+  {
+    "id": "c0227",
+    "num": "1519",
+    "title": "Định thổ",
+    "book": 3
+  },
+  {
+    "id": "c0228",
+    "num": "1520",
+    "title": "Kiến Bảo",
+    "book": 3
+  },
+  {
+    "id": "c0229",
+    "num": "1521",
+    "title": "Lâm Hương",
+    "book": 3
+  },
+  {
+    "id": "c0230",
+    "num": "1522",
+    "title": "Vọng Nhật",
+    "book": 3
+  },
+  {
+    "id": "c0231",
+    "num": "1523",
+    "title": "Huyền kính",
+    "book": 3
+  },
+  {
+    "id": "c0232",
+    "num": "1524",
+    "title": "Tịnh dương",
+    "book": 3
+  },
+  {
+    "id": "c0233",
+    "num": "1525",
+    "title": "Minh Trừ",
+    "book": 3
+  },
+  {
+    "id": "c0234",
+    "num": "1526",
+    "title": "Ba chuyện",
+    "book": 3
+  },
+  {
+    "id": "c0235",
+    "num": "1527",
+    "title": "Ứng nặc",
+    "book": 3
+  },
+  {
+    "id": "c0236",
+    "num": "1528",
+    "title": "Không thổ",
+    "book": 3
+  },
+  {
+    "id": "c0237",
+    "num": "1529",
+    "title": "Mộ",
+    "book": 3
+  },
+  {
+    "id": "c0238",
+    "num": "1530",
+    "title": "Tối hậu thân",
+    "book": 3
+  },
+  {
+    "id": "c0239",
+    "num": "1531",
+    "title": "Nhật thuật",
+    "book": 3
+  },
+  {
+    "id": "c0240",
+    "num": "1532",
+    "title": "Bế quan",
+    "book": 3
+  },
+  {
+    "id": "c0241",
+    "num": "1533",
+    "title": "Lương Trang vị túc sư",
+    "book": 3
+  },
+  {
+    "id": "c0242",
+    "num": "1534",
+    "title": "Cứu cổ",
+    "book": 3
+  },
+  {
+    "id": "c0243",
+    "num": "1535",
+    "title": "Giới Đàn",
+    "book": 3
+  },
+  {
+    "id": "c0244",
+    "num": "1536",
+    "title": "Khảm Ly",
+    "book": 3
+  },
+  {
+    "id": "c0245",
+    "num": "1537",
+    "title": "Vọng Pháp",
+    "book": 3
+  },
+  {
+    "id": "c0246",
+    "num": "1538",
+    "title": "Tiên Bất Tôn",
+    "book": 3
+  },
+  {
+    "id": "c0247",
+    "num": "1539",
+    "title": "Quyết lộ",
+    "book": 3
+  },
+  {
+    "id": "c0248",
+    "num": "1540",
+    "title": "Thính Xiển",
+    "book": 3
+  },
+  {
+    "id": "c0249",
+    "num": "1541",
+    "title": "Cửu tử",
+    "book": 3
+  },
+  {
+    "id": "c0250",
+    "num": "1542",
+    "title": "Nhất Giới",
+    "book": 4
+  },
+  {
+    "id": "c0251",
+    "num": "1543",
+    "title": "Trung đài",
+    "book": 4
+  },
+  {
+    "id": "c0252",
+    "num": "1544",
+    "title": "Giao dịch",
+    "book": 4
+  },
+  {
+    "id": "c0253",
+    "num": "1545",
+    "title": "Kế Huyền",
+    "book": 4
+  },
+  {
+    "id": "c0254",
+    "num": "1546",
+    "title": "Huynh Muội",
+    "book": 4
+  },
+  {
+    "id": "c0255",
+    "num": "1547",
+    "title": "Cấu kết",
+    "book": 4
+  },
+  {
+    "id": "c0256",
+    "num": "1548",
+    "title": "Chung nhất",
+    "book": 4
+  },
+  {
+    "id": "c0257",
+    "num": "1549",
+    "title": "Trảm Ti",
+    "book": 4
+  },
+  {
+    "id": "c0258",
+    "num": "1550",
+    "title": "Thập phương",
+    "book": 4
+  },
+  {
+    "id": "c0259",
+    "num": "1551",
+    "title": "Nan ngôn",
+    "book": 4
+  },
+  {
+    "id": "c0260",
+    "num": "1552",
+    "title": "Nhị Nghi",
+    "book": 4
+  },
+  {
+    "id": "c0261",
+    "num": "1553",
+    "title": "Kim chuyển",
+    "book": 4
+  },
+  {
+    "id": "c0262",
+    "num": "1554",
+    "title": "Thừa Thời (1+1/2)",
+    "book": 4
+  },
+  {
+    "id": "c0263",
+    "num": "1555",
+    "title": "Vật Tra",
+    "book": 4
+  },
+  {
+    "id": "c0264",
+    "num": "1556",
+    "title": "Cố Lôi",
+    "book": 4
+  },
+  {
+    "id": "c0265",
+    "num": "1557",
+    "title": "Thập Phương",
+    "book": 4
+  },
+  {
+    "id": "c0266",
+    "num": "1558",
+    "title": "Luận vị",
+    "book": 4
+  },
+  {
+    "id": "c0267",
+    "num": "1559",
+    "title": "Minh Xuyên",
+    "book": 4
+  },
+  {
+    "id": "c0268",
+    "num": "1560",
+    "title": "Đầu Thủ",
+    "book": 4
+  },
+  {
+    "id": "c0269",
+    "num": "1561",
+    "title": "Thần Hi",
+    "book": 4
+  },
+  {
+    "id": "c0270",
+    "num": "1562",
+    "title": "Điện sát",
+    "book": 4
+  },
+  {
+    "id": "c0271",
+    "num": "1563",
+    "title": "Tự chủ",
+    "book": 4
+  },
+  {
+    "id": "c0272",
+    "num": "1564",
+    "title": "Thệ Thân",
+    "book": 4
+  },
+  {
+    "id": "c0273",
+    "num": "1565",
+    "title": "Đạo quế",
+    "book": 4
+  },
+  {
+    "id": "c0274",
+    "num": "1566",
+    "title": "Cừu Tuyết",
+    "book": 4
+  },
+  {
+    "id": "c0275",
+    "num": "1567",
+    "title": "Bổn phi chân kim thiết",
+    "book": 4
+  },
+  {
+    "id": "c0276",
+    "num": "1568",
+    "title": "Công thành dĩ thập phần",
+    "book": 4
+  },
+  {
+    "id": "c0277",
+    "num": "1569",
+    "title": "Thiên mệnh",
+    "book": 4
+  },
+  {
+    "id": "c0278",
+    "num": "1570",
+    "title": "Quan Nguyên",
+    "book": 4
+  },
+  {
+    "id": "c0279",
+    "num": "1571",
+    "title": "Đế quân",
+    "book": 4
+  },
+  {
+    "id": "c0280",
+    "num": "1572",
+    "title": "Vong Cục",
+    "book": 4
+  },
+  {
+    "id": "c0281",
+    "num": "1573",
+    "title": "Đế công",
+    "book": 4
+  },
+  {
+    "id": "c0282",
+    "num": "1574",
+    "title": "Tiền chân",
+    "book": 4
+  },
+  {
+    "id": "c0283",
+    "num": "1575",
+    "title": "Huyền định",
+    "book": 4
+  },
+  {
+    "id": "c0284",
+    "num": "1576",
+    "title": "Tam quỹ",
+    "book": 4
+  },
+  {
+    "id": "c0285",
+    "num": "1577",
+    "title": "Phi Thử",
+    "book": 4
+  },
+  {
+    "id": "c0286",
+    "num": "1578",
+    "title": "Yến chủ",
+    "book": 4
+  },
+  {
+    "id": "c0287",
+    "num": "1579",
+    "title": "Ám kiếm",
+    "book": 4
+  },
+  {
+    "id": "c0288",
+    "num": "1580",
+    "title": "Tẫn thế",
+    "book": 4
+  },
+  {
+    "id": "c0289",
+    "num": "1581",
+    "title": "Yến thần",
+    "book": 4
+  },
+  {
+    "id": "c0290",
+    "num": "1582",
+    "title": "Minh chủ",
+    "book": 4
+  },
+  {
+    "id": "c0291",
+    "num": "1583",
+    "title": "Nhập Thanh Thính",
+    "book": 4
+  },
+  {
+    "id": "c0292",
+    "num": "1584",
+    "title": "Ước thì",
+    "book": 4
   }
 ]
